@@ -55,8 +55,9 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 ### Tools & Libraries
 
 - For design:
-    - The article I found on the effects of colours. <a href="https://palermocafe.com/colors-make-hungry/">Click here for the article</a> )
-    - the article I found on the scientific facts about fonts. <a href="https://creativemarket.com/blog/10-fascinating-scientific-facts-about-fonts">Click here for the article</a>
-    - Google fonts. <a href="https://fonts.google.com/">Click here for Google fonts</a>
+    - <a href="https://palermocafe.com/colors-make-hungry/">The article</a> I found on the effects of colours
+    - <a href="https://creativemarket.com/blog/10-fascinating-scientific-facts-about-fonts">The article</a>I found on the scientific facts about fonts.
+    - <a href="https://fonts.google.com/">Google fonts</a>
 - For creating my README.md:
-    - A good example of a README <a href="https://github.com/Geomint/holiday-destinations">Click here to see what a good README.md looks like</a>
+    - <a href="https://github.com/Geomint/holiday-destinations">A good example of a README.md</a>
+    - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
