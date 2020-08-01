@@ -20,3 +20,13 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - A secure place to put recipes.
 - Clear images of the finished dish so they have an idea how it is going to look.
 - finding tips to improve there cooking skills.
+
+## User Requirements and Expectations
+
+### Requirements
+
+- Content displayed in a visually appealing manor.
+- Visible and working images to get an impression of dishes
+- Navigation should make navigate the website easier.
+- Login and register form need to be secure to help against hacking.
+- Insert recipes form validation to help with incorrect display of dishes.
