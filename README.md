@@ -11,3 +11,12 @@ When I finished school I decided to travel instead of study on and starting to w
 - A place for people to find inspiration on that question everyone asks him/her self every day what will I be eating today?
 
 This project is aimed for everyone how is interested in cooking no mather the how good your cooking skills are. The layout of the website should be structured, easy to use and not to crowed/distracting. The website needs to be visually appealing enough to encourage user interaction whilst also provide an good User Experience to the every day chef.
+
+### User Goals
+
+- Easy to follow and well written recipes.
+- Different kind of recipes/cuisines.
+- Easy accessible and interactive from any device and on any type of internet.
+- A secure place to put recipes.
+- Clear images of the finished dish so they have an idea how it is going to look.
+- finding tips to improve there cooking skills.
