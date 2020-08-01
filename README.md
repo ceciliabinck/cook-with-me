@@ -40,3 +40,9 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Form Validation works correctly.
 - Login and register form are secured.
 - Can click on Recipe name which displays the information needed to make the recipe.
+
+## Wireframes
+
+I built the wireframes for this project using Balsamiq (https://balsamiq.com/). First I started by making a design for the desktop version, which I than translated to mobile/tablet version of the same design. I am not sure yet if I shoudl create a different design for tablet mode as now a days you have many different sizes for tablets. To get a better understanding of how the elements will be structured on the page.
+
+View my wireframes here (https://github.com/ceciliabinck/Cook-with-me/tree/master/wireframes).
