@@ -30,3 +30,13 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Navigation should make navigate the website easier.
 - Login and register form need to be secure to help against hacking.
 - Insert recipes form validation to help with incorrect display of dishes.
+
+### Expectations
+
+- Navigation takes user to specific parts of the website.
+- Pop out nav appears in place of navbar on Tablet + Mobile Devices.
+- Every recipe should have an image to give other user an idea how the dish looks like.
+- Also every recipe should have a difficulty level and cooking time to make it easier to decide if it is achievable for other users.
+- Form Validation works correctly.
+- Login and register form are secured.
+- Can click on Recipe name which displays the information needed to make the recipe.
