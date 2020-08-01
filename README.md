@@ -57,6 +57,6 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - For design:
     - The article I found on the effects of colours. <a href="https://palermocafe.com/colors-make-hungry/">Click here for the article</a> )
     - the article I found on the scientific facts about fonts. <a href="https://creativemarket.com/blog/10-fascinating-scientific-facts-about-fonts">Click here for the article</a>
-    - Googel fonts. <a href="https://fonts.google.com/">Click here for Google fonts</a>
+    - Google fonts. <a href="https://fonts.google.com/">Click here for Google fonts</a>
 - For creating my README.md:
     - A good example of a README <a href="https://github.com/Geomint/holiday-destinations">Click here to see what a good README.md looks like</a>
