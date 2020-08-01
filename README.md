@@ -41,6 +41,21 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Login and register form are secured.
 - Can click on Recipe name which displays the information needed to make the recipe.
 
+## Design Choices
+
+The theme of this project is food and there are a lot of websites like the one I am making for this project. So I wanted to do some research to see if there was anything that I could put in my design to make my website more appealing to users. And that would make users more likely to try and make some of the different recipes on my website.
+
+### Fonts
+
+I also looked in to the affects of different fonts and I found an article that talked about scientific facts about fonts. It states that "Experiments show that people are more likely to believe information set in Baskerville". People see Baskerville as a trustworthy font. So that would hopefully mean that users would be more likely to choose my website over another one. As there is a lot of competition in the segment.
+
+So I went to look for this trustworthy font on Google fonts, turns out it is not available there. So for my primary font I went for the next best thing on Google fonts **Libre Baskerville**. I decided to go with the Regular 400. As the bold 700 would make it harder to read and the regular 400 italic could make it harder to follow instructions. As fact 3 in that same article says "The same researchers found that when people were given a task, those who got fancy fonts estimated the task would take nearly twice as long." I would not want to scare users off because they think the recipes take longer then estimated time.
+
+The second font I wanted to be a bit mote fancy to draw users eyes to it. According to fact 2 in this article "Fancier fonts are associated with more skill in certain professions; in one study, diners who received menus with fancy fonts assumed the chef had more skill."
+
+TIt cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold.
+
+
 ## Wireframes
 
 I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq</a>. First I started by making a design for the desktop version, which I than translated to mobile/tablet version of the same design. I am not sure yet if I shoudl create a different design for tablet mode as now a days you have many different sizes for tablets. To get a better understanding of how the elements will be structured on the page.
