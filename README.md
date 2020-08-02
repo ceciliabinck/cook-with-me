@@ -55,6 +55,27 @@ The second font I wanted to be a bit mote fancy to draw users eyes to it. Accord
 
 TIt cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold.
 
+### Colours
+
+I looked in to which colors would make people more likely to give them an appetite. From all the different articles that I have read I found out that the colours yellow, orange, green and red stimulate most peoples appetite. In some articles they also name the colour turquoise because it's often connected to happiness and the feeling of being carefree. 
+The colours orange and yellow are the 2 that are seen as the colours that mostly only have positive effects on your appetite. 
+
+- Yellow:
+The color yellow makes most people very happy. When people are happy, they are more likely to eat than when they are feeling sad or overly calm.
+
+- Orange:
+Orange is a color that makes people feel welcome and when someone is comfortable, eating sounds like a great idea.
+
+As for the colours red and green they have a positive effect but they can also have an increasing effect on your appetite. 
+
+- Green:
+Many people are attracted to the color green and associated it with abundance. This is a good color to promote healthy eating and lots of it. Some people associate green vegetables with a bitter or sour taste. The colour green is also calming effect and would help with eating an satisfying meal
+
+- Red:
+The color red raises a person’s blood pressure, heart rate, and causes hunger to be more prevalent. Bit if you eat from a red plate you are more likely to eat less. They think it has to do with the fact that red is also a colour that is associated wit danger, warnings or stopping.
+
+Therefor these are the four colours I am going to use in this project. The colours orange and yellow I will be using more primary and red and green I will be using to high lights.
+
 
 ## Wireframes
 
