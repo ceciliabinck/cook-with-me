@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Hey darling</h1>
+
+    {% for recipe in recipes %}
+
+        {{recipe.recipe_name}}
+        {{recipe.recipe_description}}
+        {{recipe.cookbook_name}}
+        {{recipe.recipe_image}}
+        {{recipe.category_name}}
+        {{recipe.difficulty_level}}
+        {{recipe.prep_time}}
+        {{recipe.cook_time}}
+        {{recipe.total_time}}
+        {{recipe.ingredients}}
+        {{recipe.method}}
+        {{recipe.tips}}       
+
+    {% endfor %}
+{% endblock %}
