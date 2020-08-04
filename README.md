@@ -53,7 +53,7 @@ So I went to look for this trustworthy font on Google fonts, turns out it is not
 
 The second font I wanted to be a bit mote fancy to draw users eyes to it. According to fact 2 in this article "Fancier fonts are associated with more skill in certain professions; in one study, diners who received menus with fancy fonts assumed the chef had more skill."
 
-TIt cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold.
+TIt cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold. 
 
 ### Colours
 
@@ -94,6 +94,7 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
     - <a href="https://palermocafe.com/colors-make-hungry/">The article</a> I found on the effects of colours
     - <a href="https://creativemarket.com/blog/10-fascinating-scientific-facts-about-fonts">The article</a>I found on the scientific facts about fonts.
     - <a href="https://fonts.google.com/">Google fonts</a>
+    - <a href="https://materializecss.com/">Materialize</a>
 - For creating my README.md:
     - <a href="https://github.com/Geomint/holiday-destinations">A good example of a README.md</a>
     - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
