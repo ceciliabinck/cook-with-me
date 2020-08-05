@@ -1,21 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Hey darling</h1>
+    <h1>Recipes</h1>
 
+    <div>
     {% for recipe in recipes %}
-
-        {{recipe.recipe_name}}
-        {{recipe.recipe_description}}
-        {{recipe.cookbook_name}}
-        {{recipe.recipe_image}}
-        {{recipe.category_name}}
-        {{recipe.difficulty_level}}
-        {{recipe.prep_time}}
-        {{recipe.cook_time}}
-        {{recipe.total_time}}
-        {{recipe.ingredients}}
-        {{recipe.method}}
-        {{recipe.tips}}       
-
+    <h5>
+     {{recipe.recipe_name}}
+    </h5>
+    <p>
+     {{recipe.recipe_description}}
+    </p>
+    <p>
+    {{recipe.cookbook_name}}
+    {{recipe.category_name}}
+    </p>
+    <i>{{recipe.recipe_image}}</i>
     {% endfor %}
+    </div>
+    
 {% endblock %}
