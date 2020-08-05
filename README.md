@@ -76,6 +76,9 @@ The color red raises a person’s blood pressure, heart rate, and causes hunger 
 
 Therefor these are the four colours I am going to use in this project. The colours orange and yellow I will be using more primary and red and green I will be using to high lights.
 
+### Styling
+
+I want to keep the styling of the different pages simple and quite as I choose some bright and intense colours. The navbar will consists of two bright colours to get the attention of the users. The background of the different pages will stay white 
 
 ## Wireframes
 
@@ -102,3 +105,4 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - For creating my README.md:
     - <a href="https://github.com/Geomint/holiday-destinations">A good example of a README.md</a>
     - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
+- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Are where the recipes are from
