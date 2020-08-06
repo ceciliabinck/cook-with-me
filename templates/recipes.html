@@ -1,21 +1,31 @@
-{% extends 'base.html' %}
-{% block content %}
-    <h1>Recipes</h1>
+{% extends 'base.html' %} {% block content %}
+<h1 class="center">Recipes</h1>
 
-    <div>
-    {% for recipe in recipes %}
-    <h5>
-     {{recipe.recipe_name}}
-    </h5>
-    <p>
-     {{recipe.recipe_description}}
-    </p>
-    <p>
-    {{recipe.cookbook_name}}
-    {{recipe.category_name}}
-    </p>
-    <i>{{recipe.recipe_image}}</i>
-    {% endfor %}
+<div class="container">
+  {% for recipe in recipes %}
+  <div class="row">
+    <div class="col s12 m8">
+      <h5>
+        {{recipe.recipe_name}}
+      </h5>
+      <p>
+        {{recipe.recipe_description}}
+      </p>
+      <p>
+        {{recipe.cookbook_name}} 
+      </p>
+      <p>
+      {{recipe.category_name}}
+      </p>
     </div>
-    
+    <div class="col s12 m4">
+      <img
+        href="{{recipe.recipe_image}}"
+        alt="Egg & mango chutney flatbreads"
+      />
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 {% endblock %}
