@@ -90,6 +90,9 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 ### Languages
 
 - Markdown
+- HTML
+- CSS
+- Jquery
 
 ### Tools & Libraries
 
