@@ -44,20 +44,26 @@ def edit_recipe(recipe_id):
     return render_template('editrecipe.html', recipe=the_recipe, categories=all_categories)
 
 
-# ------ categories ------ #
-
-
-@app.route('/get_categories')
-def get_categories():
-    return render_template('home.html',
-    categories=mongo.db.categories.find())
-
-
-@app.route('/get_cookbook')
-def get_cookbook():
-    return render_template('cookbook.html',
-    cook_book=mongo.db.cook_book.find())
-
+@app.route('/update_recipe/<recipe_id>', methods=['POST'])
+def update_recipe(recipe_id):
+    recipes = mongo.db.recipes
+    recipes.update( {'_id': ObjectId(recipe_id)},
+    {
+        'recipe_name': request.form.get('recipe_name'),
+        'recipe_description': request.form.get('recipe_description'),
+        'cookbook_name': request.form.get('cookbook_name'),
+        'recipe_image': request.form.get('recipe_image'),
+        'category_name': request.form.get('category_name'),
+        'difficulty_level': request.form.get('difficulty_level'),
+        'prep_time': request.form.get('prep_time'),
+        'cook_time': request.form.get('cook_time'),
+        'total_time': request.form.get('total_time'),
+        'ingredients': request.form.get('ingredients'),
+        'method': request.form.get('method'),
+        'tips': request.form.get('tips'),
+        'vegetarian': request.form.get('vegetarian')
+    })
+    return redirect(url_for('get_recipes'))
 
 
 if __name__ == "__main__":
