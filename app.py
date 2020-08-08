@@ -13,14 +13,25 @@ app.config["MONGO_DBNAME"] = "cook"
 app.config["MONGO_URI"] = os.environ['MONGO_URI']
 mongo = PyMongo(app)
 
-#------ recipes ------#
+
+# ------ recipes ------ #
+
 
 @app.route('/')
 @app.route('/get_recipes')
 def get_recipes():
     return render_template('recipes.html', recipes=mongo.db.recipes.find())
 
-#------ categories ------#
+
+@app.route('/add_recipe')
+def add_recipe():
+    _categories = mongo.db.categories.find()
+    category_list = [category for category in _categories]
+    return render_template("addrecipe.html", categories=category_list)
+
+
+# ------ categories ------ #
+
 
 @app.route('/get_categories')
 def get_categories():
