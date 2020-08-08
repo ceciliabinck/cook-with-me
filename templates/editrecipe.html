@@ -90,7 +90,11 @@
         <!-- Switch -->
         <div class="switch">
             <label>
-            <input id="vegetarian" name="vegetarian" type="checkbox" value="{{recipe.tips}}" />
+            {% if recipe.vegetarian %}
+            <input id="vegetarian" name="vegetarian" type="checkbox" checked />
+            {% else %}
+            <input id="vegetarian" name="vegetarian" type="checkbox" />
+            {% endif %}
             <span class="lever"></span>
             Vegetarian
             </label>
