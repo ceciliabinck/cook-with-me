@@ -93,6 +93,7 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - HTML
 - CSS
 - Jquery
+- Python
 
 ### Tools & Libraries
 
@@ -103,6 +104,7 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
     - <a href= "https://dress-nl.techinfus.com/psihologiya-cveta/vozdejstvuyut-na-appetit/">One article</a> I found on the effects of colours
     - <a href= "https://www.fitday.com/fitness-articles/nutrition/how-color-can-change-your-appetite-and-eating-habits.html">One article</a> I found on the effects of colours
     - <a href="https://creativemarket.com/blog/10-fascinating-scientific-facts-about-fonts">The article</a>I found on the scientific facts about fonts.
+    - <a href="https://www.w3schools.com/colors/colors_picker.asp">w3schools</a>
     - <a href="https://fonts.google.com/">Google fonts</a>
     - <a href="https://materializecss.com/">Materialize</a>
 - For creating my README.md:
