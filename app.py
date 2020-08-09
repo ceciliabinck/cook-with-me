@@ -63,6 +63,7 @@ def add_recipe():
 def insert_recipe():
     recipes = mongo.db.recipes
     recipes.insert_one(request.form.to_dict())
+    flash("Recipe Succesfully Added")
     return redirect(url_for('get_recipes'))
 
 
@@ -92,12 +93,14 @@ def update_recipe(recipe_id):
         'tips': request.form.get('tips'),
         'vegetarian': request.form.get('vegetarian')
     })
+    flash("Recipe Succesfully Updated")
     return redirect(url_for('get_recipes'))
 
 
 @app.route('/delete_recipe/<recipe_id>')
 def delete_recipe(recipe_id):
     mongo.db.recipes.remove({'_id': ObjectId(recipe_id)})
+    flash("Recipe Succesfully Deleted")
     return redirect(url_for('get_recipes'))
 
 
