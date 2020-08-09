@@ -6,6 +6,10 @@ body{
     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
+.flashes h4 {
+    line-height: 2;
+}
+
 .btn_small {
     height: 25px;
     width: 70px;
