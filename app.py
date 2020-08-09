@@ -70,6 +70,13 @@ def register():
         return render_template('login.html')
 
 
+@app.route('/profile/<username>')
+def profile(username):
+    # grabe the session user from the db
+    username = mongo.db.users.find.one(
+        {'username': session['user']})["username"]
+    return render_template('profile.html', username=username)
+
 # ------ recipes ------ #
 
 
