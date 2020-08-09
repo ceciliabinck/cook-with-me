@@ -1,0 +1,19 @@
+body{
+    background-color: #ffff80;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.btn_small {
+    height: 25px;
+    width: 70px;
+    line-height: 24px;
+    margin: 5px 5px;
+    padding: 0 0.5em;
+}
+
+.container .row .col img {
+    width: 100%;
+}
