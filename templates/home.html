@@ -4,9 +4,9 @@
 
     <section id="intro" class="container">
         <div class="carousel">
-            <a class="carousel-item" href="#"><img src="static/egg_mango-chutney.jpg" alt="Egg and mango chutney"></a>
-            <a class="carousel-item" href="#"><img src="static/egg_mango-chutney.jpg"></a>
-            <a class="carousel-item" href="#"><img src="static/egg_mango-chutney.jpg"></a>
+            <a class="carousel-item" href="#"><img src="{{ url_for('static', filename='images/berry-tart.jpg') }}" alt="Berry tart"></a>
+            <a class="carousel-item" href="#"><img src="{{ url_for('static', filename='images/egg_mango-chutney.jpg') }}" alt="Egg mango chutney flatbread"></a>
+            <a class="carousel-item" href="#"><img src="{{ url_for('static', filename='images/noodle-soup.jpg') }}" alt="Noodle-soup"></a>
             
         </div>
 
@@ -18,7 +18,7 @@
     </section>
     <hr>
     <section id="about" class="container">
-        <h1 class="center">About Us</h1>
+        <h1 class="center">About</h1>
         <p>
             Growing up me and my siblings learned how to cook at an early age, starting with some basic dishes. So when I was older and going to school I always found it strange that most of my classmate could not cook or any prep work. When I would ask them about that they would say that there, mostly, mother cooked or they had not learned to cook and take out is way faster. Cooking is not that difficult. It can be fun, cheaper and sometimes faster than take out. If only I could help them figure that out.
         </p>
