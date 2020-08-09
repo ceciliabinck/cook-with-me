@@ -85,6 +85,14 @@ def profile(username):
 
     return redirect(url_for('login'))
 
+
+@app.route('/logout')
+def logout():
+    # removes user from session cookies
+    flash("you have been logged out")
+    session.pop('user')
+    return redirect(url_for('login'))
+
 # ------ recipes ------ #
 
 
