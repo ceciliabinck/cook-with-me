@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="row">
-    <form action="{{ url_for('insert_recipe') }}" method="POST" class="col s12">
+    <form action="{{ url_for('update_recipe', recipe_id=recipe._id) }}" method="POST" class="col s12">
 
         <div class="row">
         <div class="input-field col s12">
@@ -13,7 +13,7 @@
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="recipe_description" name="recipe_description" class="validate" cols="30" rows="10" required>{{recipe.recipe_description}}"</textarea>
+            <textarea id="recipe_description" name="recipe_description" class="validate" cols="30" rows="10" required>{{recipe.recipe_description}}</textarea>
             <label for="icon_prefix">Recipe Description</label>
         </div>
         </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="tips" name="tips" class="validate">{{recipe.tips}}"</textarea>
+            <textarea id="tips" name="tips" class="validate">{{recipe.tips}}</textarea>
             <label for="icon_prefix">Tips</label>
         </div>
         </div>
