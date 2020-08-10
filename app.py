@@ -25,7 +25,7 @@ def get_home():
 def register():
     if request.method == "POST":
         # check if username already exicts in db
-        existing_user = mongo.db.user.find.on(
+        existing_user = mongo.db.user.find_one(
             {"username": request.form.get("username").lower()})
 
         if existing_user:
@@ -46,12 +46,12 @@ def register():
     return render_template('register.html')
 
 
-    @app.route('/login', methods=["GET", "POST"])
-    def login():
-        if request.method == "POST":
-            # check if username exicts in db
-            existing_user = mongo.db.user.find.on(
-                {"username": request.form.get("username").lower()})
+@app.route('/login', methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        # check if username exicts in db
+        existing_user = mongo.db.user.find_one(
+            {"username": request.form.get("username").lower()})
 
         if existing_user:
             # ensure hashed password matches user input
@@ -71,13 +71,13 @@ def register():
             flash("Incorrect Username and/or Password")
             return redirect(url_for("login"))
 
-        return render_template('login.html')
+    return render_template('login.html')
 
 
 @app.route('/profile/<username>', methods=['GET', 'POST'])
 def profile(username):
     # grabe the session user from the db
-    username = mongo.db.users.find.one(
+    username = mongo.db.users.find_one(
         {'username': session['user']})["username"]
 
     if session['user']:
