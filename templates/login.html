@@ -2,52 +2,44 @@
 
 <h3 class="center-align">Log In</h3>
 
-    <div class="row">
-        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
-            <div class="card-panel">
-            <!-- username -->
-                <div class="row">
-                    <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">account_box</i>
-                        <input id="username" name="username" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
-                        <label for="username">Username</label>
-                    </div>
-                <!-- cookbook name -->
+<div class="row">
+    <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
+        <div class="card-panel">
+        <!-- username -->
+            <div class="row">
                 <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">collections_bookmark</i>
-                        <input id="cookbook-name" name="cookbook-name" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
-                        <label for="cookbook-name">Cookbook Name</label>
+                    <i class="material-icons prefix">account_box</i>
+                    <input id="username" name="username" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
+                    <label for="username">Username</label>
+                </div>
+            <!-- cookbook name -->
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">collections_bookmark</i>
+                    <input id="cookbook-name" name="cookbook-name" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
+                    <label for="cookbook-name">Cookbook Name</label>
                     </div>
                 </div>
-                <!-- email -->
-                <div class="row">
-                    <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">email</i>
-                        <input id="email" name="email" type="email" class="validate" required>
-                        <label for="email">Email</label>
-                    </div>
-                <!-- password -->
-                    <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">lock</i>
-                        <input id="password" name="password" type="password" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <!-- log in -->
-                <div class="row">
-                    
-                    <button type="submite" class="col s12 btn-large light-green text-shadow">
-                        Log In<i class="material-icons prefix">forward</i>
-                    </button>
+            <!-- password -->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">lock</i>
+                    <input id="password" name="password" type="password" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
+                    <label for="password">Password</label>
                 </div>
             </div>
-        </form>
-    </div>
-    <div class="row">
-        <div class="col s12">
-            <p class="center-align">
-                No cookbook yet? <a href="{{ url_for('register') }}" class="light-green text-darken-4">Register Here</a>
-            </p>
+            <!-- log in -->
+             <div class="row">
+                <button type="submite" class="col s12 btn-large light-green text-shadow">
+                    Log In<i class="material-icons prefix">forward</i>
+                </button>
+            </div>
         </div>
+    </form>
+</div>
+<div class="row">
+    <div class="col s12">
+        <p class="center-align">
+            No cookbook yet? <a href="{{ url_for('register') }}" class="light-green white-text">Register Here</a>
+        </p>
     </div>
+</div>
 {% endblock %}
