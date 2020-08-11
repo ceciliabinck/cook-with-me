@@ -37,7 +37,7 @@ def register():
             "username": request.form.get("username").lower(),
             "password": generate_password_hash(request.form.get("password")),
             "cookbook": request.form.get('cookbook'),
-            "email": request.form.get("email")
+            "email": request.form.get('email')
         }
         mongo.db.user.insert_one(register)
 
@@ -60,7 +60,7 @@ def login():
             # ensure hashed password matches user input
             if check_password_hash(
                 existing_user["password"], request.form.get("password")):
-                    session["user"] = request.form.get('password').lower()
+                    session["user"] = request.form.get('username').lower()
                     flash("Welcome {}", format(request.form.get('username')))
                     return redirect(url_for(
                         'profile', username=session["user"]))
@@ -80,11 +80,10 @@ def login():
 @app.route('/profile/<username>', methods=['GET', 'POST'])
 def profile(username):
     # grabe the session user from the db
-    username = mongo.db.user.find_one(
-        {'username': session['user']})["username"]
+    existing_user = mongo.db.user.find_one({'username': username})
 
     if session['user']:
-        return render_template('profile.html', username=username)
+        return render_template('profile.html', user=existing_user)
 
     return redirect(url_for('login'))
 
