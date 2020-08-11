@@ -80,7 +80,7 @@ def login():
 @app.route('/profile/<username>', methods=['GET', 'POST'])
 def profile(username):
     # grabe the session user from the db
-    username = mongo.db.users.find_one(
+    username = mongo.db.user.find_one(
         {'username': session['user']})["username"]
 
     if session['user']:
