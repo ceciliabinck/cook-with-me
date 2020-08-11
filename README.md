@@ -78,7 +78,13 @@ Therefor these are the four colours I am going to use in this project. The colou
 
 ### Styling
 
-I want to keep the styling of the different pages simple and quite as I choose some bright and intense colours. The navbar will consists of two bright colours to get the attention of the users. The background of the different pages will stay white 
+#### home
+
+The home gapge consists of a navbar vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours have a positive efect on your appetite.
+
+The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section of the navbar is short h5 of what the idea is of the website.
+
+In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page.
 
 ## Wireframes
 
@@ -113,3 +119,12 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Are where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
+
+# Bugs
+
+## resulved Bugs
+
+- Bug 1
+Profile page doesn't load it gives an NoneType error
+
+
