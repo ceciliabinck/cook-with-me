@@ -37,3 +37,6 @@ body{
     color: orange;
 }
 
+#intro h5 {
+    padding-bottom: 50px;
+}
