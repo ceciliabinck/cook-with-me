@@ -21,3 +21,9 @@ body{
 .container .row .col img {
     width: 100%;
 }
+
+#go_up{
+    margin-top: -120px;
+    color: orange;
+}
+
