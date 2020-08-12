@@ -107,7 +107,7 @@ def get_recipes():
 def add_recipe():
     _categories = mongo.db.categories.find()
     category_list = [category for category in _categories]
-    return render_template("addrecipe.html", categories=category_list)
+    return render_template("add_recipe.html", categories=category_list)
 
 
 @app.route('/insert_recipe', methods=['POST'])
@@ -122,7 +122,7 @@ def insert_recipe():
 def edit_recipe(recipe_id):
     the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     all_categories = mongo.db.categories.find()
-    return render_template('editrecipe.html', recipe=the_recipe, categories=all_categories)
+    return render_template('edit_recipe.html', recipe=the_recipe, categories=all_categories)
 
 
 @app.route('/update_recipe/<recipe_id>', methods=['POST'])
