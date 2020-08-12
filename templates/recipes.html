@@ -3,7 +3,7 @@
 
 <div class="container">
   {% for recipe in recipes %}
-  <div class="row">
+  <div class="row card-panel">
     <div class="col s12 m8">
       <h5>
         {{recipe.recipe_name}}
@@ -17,7 +17,9 @@
       <p>
       {{recipe.category_name}}
       </p>
-      
+      <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
+      <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
+    
     </div>
     <div class="col s12 m4">
       <img src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}">
