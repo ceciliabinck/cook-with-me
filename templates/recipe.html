@@ -1,0 +1,38 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Recipe</h1>
+<div class="row">
+  <div class="col s12">
+    {% for recipe in recipes %}
+    <ul class="tabs">
+      <li class="tab col s3"><a href="#recipe_description">Recipe Description</a></li>
+      <li class="tab col s3"><a href="#test1"></a></li>
+      <li class="tab col s3"><a href="#time">Time</a></li>
+      <li class="tab col s3">
+        <a class="active" href="#ingredients">Ingredients</a>
+      </li>
+      <li class="tab col s3 disabled"><a href="#method">Method</a></li>
+      <li class="tab col s3"><a href="#tips">Tips</a></li>
+    </ul>
+  </div>
+
+  <div class="container" id="recipe_description">
+    {{recipe.recipe_name}} {{recipe.recipe_description}} {{recipe.recipe_image}}
+    {{recipe.cookbook_name}}
+  </div>
+  <div class="container" id="time">
+    {{recipe.prep_time}} {{recipe.cook_time}} {{recipe.total_time}}
+  </div>
+  <div class="container" id="ingredients">
+    {{recipe.ingredients}}
+  </div>
+  <div class="container" id="method">
+    {{recipe.method}}
+  </div>
+  <div class="container" id="Tips">
+    {{recipe.tips}}
+  </div>
+
+  {{recipe.category_name}} {{recipe.difficulty_level}} 
+  {% endfor %} 
+  {% endblock %}
+</div>
