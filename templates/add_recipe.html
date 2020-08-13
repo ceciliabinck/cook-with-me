@@ -40,10 +40,16 @@
             <label>Category Name</label>
         </div>
         </div>
+
         <div class="row">
         <div class="input-field col s12">
-            <input id="difficulty_level" name="difficulty_level" type="text" class="validate" required />
-            <label for="icon_prefix">Difficulty Level</label>
+            <select id="difficulty" name="difficulty">
+            <option value="" disabled selected>Choose Difficulty</option>
+            {% for diff in difficulty %}
+            <option value="{{ diff.difficulty }}" required>{{ diff.difficulty }}</option>
+            {% endfor %}
+            </select>
+            <label>Difficulty Level</label>
         </div>
         </div>
         <div class="row">
