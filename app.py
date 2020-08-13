@@ -106,8 +106,11 @@ def get_recipes():
 @app.route('/add_recipe')
 def add_recipe():
     _categories = mongo.db.categories.find()
+    _difficulty = mongo.db.difficulty.find()
     category_list = [category for category in _categories]
-    return render_template("add_recipe.html", categories=category_list)
+    difficulty_list = [difficulty for difficulty in _difficulty]
+    return render_template("add_recipe.html", 
+    categories=category_list, difficulty=difficulty_list)
 
 
 @app.route('/insert_recipe', methods=['POST'])
@@ -154,6 +157,7 @@ def delete_recipe(recipe_id):
     flash("Recipe Succesfully Deleted")
     return redirect(url_for('get_recipes'))
 
+
 # ------ categories ------ #
 
 
@@ -187,6 +191,8 @@ def edit_category(category_id):
 
     category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
     return render_template("edit_category.html", category=category)
+
+
 
 
 if __name__ == "__main__":
