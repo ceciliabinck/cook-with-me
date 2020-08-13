@@ -13,7 +13,7 @@
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="recipe_description" name="recipe_description" class="validate" cols="30" rows="10" required>{{recipe.recipe_description}}</textarea>
+            <textarea id="recipe_description" name="recipe_description" class="validate materialize-textarea" cols="30" rows="10" required>{{recipe.recipe_description}}</textarea>
             <label for="icon_prefix">Recipe Description</label>
         </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="row">
         <div class="input-field col s12">
        <select id="category" name="category_name">
-                <option value="" disabled selected>Choose Category</option>
+                <option value="" disabled>Choose Category</option>
                 {% for cat in categories %}
                     {% if cat.category_name == recipe.category_name %}
                 <option value="{{cat.category_name}}" selected> {{cat.category_name}}</option>
@@ -44,10 +44,19 @@
         <label>Category Name</label>
         </div>
         </div>
-        <div class="row">
+          <div class="row">
         <div class="input-field col s12">
-            <input id="difficulty_level" name="difficulty_level" type="text" class="validate" value="{{recipe.difficulty_level}}" required />
-            <label for="icon_prefix">Difficulty Level</label>
+            <select id="difficulty" name="difficulty">
+            <option value="" disabled>Choose Difficulty</option>
+            {% for diff in difficulty %}
+                {% if diff.difficulty == recipe.difficulty %}
+                    <option value="{{ diff.difficulty }}" selected> {{ diff.difficulty }}</option>
+                {% else %}
+                    <option value="{{ diff.difficulty }}"> {{ diff.difficulty }}</option>
+                {% endif %}
+            {% endfor %}
+            </select>
+            <label>Difficulty Level</label>
         </div>
         </div>
         <div class="row">
@@ -70,19 +79,18 @@
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="ingredients" name="ingredients" class="validate" required>{{recipe.ingredients}}</textarea>
+            <textarea id="ingredients" name="ingredients" class="validate materialize-textarea" required>{{recipe.ingredients}}</textarea>
             <label for="icon_prefix">Ingredients</label>
-        </div>
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="method" name="method" class="validate" required>{{recipe.method}}</textarea>
+            <textarea id="method" name="method" class="validate materialize-textarea" required>{{recipe.method}}</textarea>
             <label for="icon_prefix">Method</label>
         </div>
         </div>
         <div class="row">
         <div class="input-field col s12">
-            <textarea id="tips" name="tips" class="validate">{{recipe.tips}}</textarea>
+            <textarea id="tips" name="tips" class="validate materialize-textarea">{{recipe.tips}}</textarea>
             <label for="icon_prefix">Tips</label>
         </div>
         </div>
