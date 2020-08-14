@@ -125,6 +125,7 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - <a href="https://jquery.com/">Jquery</a>
 - <a href="https://www.diffchecker.com/">Diffchecker</a>
 - <a href="https://balsamiq.com/">Balsamiq</a>
+- <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a>
 
 
 # Bugs
