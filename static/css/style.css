@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Playball&display=swap');
 
 html {
-    font-family: "Libre+Baskerville";
+    font-family: "Roboto";
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -28,7 +28,7 @@ body{
     padding: 0 0.5em;
 }
 
-.container .row .col img {
+.container img {
     width: 100%;
 }
 
