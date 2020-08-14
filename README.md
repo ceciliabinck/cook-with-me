@@ -86,6 +86,8 @@ The Intro section on the home page consists of the text Welcome to and the name 
 
 In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page.
 
+#### Recipes
+
 
 
 ## Wireframes
@@ -121,6 +123,9 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 - <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Are where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
+- <a href="https://www.diffchecker.com/">Diffchecker</a>
+- <a href="https://balsamiq.com/">Balsamiq</a>
+
 
 # Bugs
 
