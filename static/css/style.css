@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&&family=Playball&display=swap');
 
 html {
     font-family: "Roboto";
@@ -27,13 +27,16 @@ body{
     margin: 5px 5px;
     padding: 0 0.5em;
 }
+.card-image {
+    width: 100%
+}
 
-.container img {
+.container .row .col img {
     width: 100%;
 }
 
 #go_up{
-    margin-top: -120px;
+    margin-top: -90px;
     color: orange;
 }
 
