@@ -4,10 +4,26 @@
         <div class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
             <div class="card-panel">
                 <h3 class="center-align text-darken-4">
-                    {{ username }}'s Profile
+                    {{ user.username }}'s Profile
                 </h3>
             </div>
         </div>
     </div>
     
 {% endblock %}
+
+<!-- So here I want the have the users recipes.
+    I am hoping to get those by using the cookbook_name.
+    mongoDb stores that when register but it gives Null at the moment.
+    All the recipes have cookbook_name included.
+    And there put the edit and delete options. -->
+
+<!--
+      <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
+      <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
+        <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a>
+    </div>
+    <div class="col s12 m4">
+      <img src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}">
+    </div>
+  </div>-->

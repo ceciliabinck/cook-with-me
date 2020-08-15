@@ -7,27 +7,27 @@
             <div class="card-panel">
             <!-- username -->
                 <div class="row">
-                    <div class="input-field col s12 m6">
+                    <div class="input-field col s12">
                         <i class="material-icons prefix">account_circle</i>
                         <input id="username" name="username" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
                         <label for="username">Username</label>
                     </div>
                 <!-- cookbook name -->
-                <div class="input-field col s12 m6">
+                <div class="input-field col s12">
                         <i class="material-icons prefix">collections_bookmark</i>
-                        <input id="cookbook-name" name="cookbook-name" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
-                        <label for="cookbook-name">Cookbook Name</label>
+                        <input id="cookbook_name" name="cookbook_name" type="text" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
+                        <label for="cookbook_name">Cookbook Name</label>
                     </div>
                 </div>
                 <!-- email -->
                 <div class="row">
-                    <div class="input-field col s12 m6">
+                    <div class="input-field col s12">
                         <i class="material-icons prefix">email</i>
                         <input id="email" name="email" type="email" class="validate" required>
                         <label for="email">Email</label>
                     </div>
                 <!-- password -->
-                    <div class="input-field col s12 m6">
+                    <div class="input-field col s12">
                         <i class="material-icons prefix">lock</i>
                         <input id="password" name="password" type="password" minlength="5" maxlength="15" pattern="^{a-zA-Z0-9}{5,15}$" class="validate" required>
                         <label for="password">Password</label>
@@ -47,7 +47,7 @@
     <div class="row">
         <div class="col s12">
             <p class="center-align">
-                Already have a cookbook? <a href="{{ url_for('login') }}" class="light-green text-darken-4">Log In Here</a>
+                Already have a cookbook? <a href="{{ url_for('login') }}" class="light-green white-text">Log In Here</a>
             </p>
         </div>
     </div>
