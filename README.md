@@ -133,6 +133,13 @@ View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/ma
 ## resulved Bugs
 
 - Bug 1
-Profile page doesn't load it gives an NoneType error
+**Problem**: Profile page doesn't load, it gives an NoneType error
+**Solution**: I gave my parameter and var the same name and that turned out to give the error. After correcting this my profile was shown but instead of the username it was displaying the password. Turns out that I made a mistake in my login route. After checking the password it should match up the correct username but instead of username I wrote password. When I corrected this mistake the profile page showed the correct username.
 
+- Bug 2
+**Problem**: MongoDb ws not inserting the name of the cookbook, It inserted null.
+**Solution**: The name in the registration form and in the insert route where not the same. So when I made them match the correct name of the cookbook was inserted in MongoDB.
 
+- Bug 3
+**Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
+**Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
