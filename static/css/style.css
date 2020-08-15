@@ -51,3 +51,39 @@ body{
     margin: 5px 5px;
     padding: 0 0.5em;
 }
+
+/* recipe cards */
+/* front side */
+
+#recipes .card {
+    margin: 10px;
+    height: 440px;
+    width: 200px;
+}
+
+.card .card-title {
+    font-size: 17px;
+}
+
+.card .card-content .card-title {
+    height: 130px;
+}
+
+/* back side */
+
+.card .card-reveal .card-title {
+    height: 100px;
+}
+
+.card .card-reveal .card-middle{
+    padding-top: 10px;
+}
+
+.card .card-reveal .card-end p {
+    height: 90px;
+    margin-top: 0;
+}
+
+.card .card-reveal .row{
+    margin-bottom: 10px;
+}
