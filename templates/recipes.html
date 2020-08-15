@@ -1,31 +1,47 @@
 {% extends 'base.html' %} {% block content %}
-<h1 class="center">Recipes</h1>
+<h1 class="center-align">Recipes</h1>
+<!-- change card panel in to Card Action Options --->
 
-<div class="container">
-  {% for recipe in recipes %}
-  <div class="row card-panel">
-    <div class="col s12 m8">
-      <h5>
-        {{recipe.recipe_name}}
-      </h5>
-      <p>
-        {{recipe.recipe_description}}
-      </p>
-      <p>
-        {{recipe.cookbook_name}} 
-      </p>
-      <p>
-      {{recipe.category_name}}
-      </p>
-      <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
-      <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
-    
+
+
+
+<div class="row">
+<div class="col s4">
+
+{% for recipe in recipes %}
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="	{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}">
     </div>
-    <div class="col s12 m4">
-      <img src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}">
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">{{recipe.recipe_name}}<i class="material-icons right">more_vert</i></span>
+      <p>{{recipe.cookbook_name}}</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">{{recipe.recipe_name}}<i class="material-icons right">close</i></span>
+      	<div class="row col s12">
+		<div class="col-s4"> 
+        <i class="material-icons prefix">query_builder</i>
+			<p>{{recipe.prep_time}}</p>
+			<p>Prep</p>
+		</div>
+		<div class="col-s4"> 
+        <i class="material-icons prefix">hourglass_empty</i>
+			<p>{{recipe.cook_time}}</p>
+			<p>Cook</p>
+		</div>
+		<div class="col-s4"> 
+        <i class="material-icons prefix">restaurant</i>
+			<p>{{recipe.serves}}</p>
+			<p>Serves</p>
+		</div>
+	</div>
+      <p>{{recipe.recipe_description}}</p>
+       <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a>
     </div>
   </div>
-  {% endfor %}
+  {%  endfor %}
+  </div>
 </div>
 
-{% endblock %}
+ {% endblock %}
