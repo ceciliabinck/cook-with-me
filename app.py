@@ -36,7 +36,7 @@ def register():
         register = {
             "username": request.form.get("username").lower(),
             "password": generate_password_hash(request.form.get("password")),
-            "cookbook": request.form.get('cookbook'),
+            "cookbook_name": request.form.get('cookbook_name'),
             "email": request.form.get('email')
         }
         mongo.db.user.insert_one(register)
@@ -81,9 +81,15 @@ def login():
 def profile(username):
     # grabe the session user from the db
     existing_user = mongo.db.user.find_one({'username': username})
+    # grape the cookbook_name from the db from this existing_user
+    cookbook_user = mongo.db.user.find_one({'cookbook_name': cookbook_name})
+
+
+    # and take all the recipes with this cookbook_mane from recipes
+    # show those on profile
 
     if session['user']:
-        return render_template('profile.html', user=existing_user)
+        return render_template('profile.html', user=existing_user, cookbook=cookbook_user)
 
     return redirect(url_for('login'))
 
@@ -125,7 +131,8 @@ def insert_recipe():
 def edit_recipe(recipe_id):
     the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     all_categories = mongo.db.categories.find()
-    return render_template('edit_recipe.html', recipe=the_recipe, categories=all_categories)
+    all_difficulty = mongo.db.difficulty.find()
+    return render_template('edit_recipe.html', recipe=the_recipe, categories=all_categories, difficulty=all_difficulty)
 
 
 @app.route('/update_recipe/<recipe_id>', methods=['POST'])
@@ -142,6 +149,7 @@ def update_recipe(recipe_id):
         'prep_time': request.form.get('prep_time'),
         'cook_time': request.form.get('cook_time'),
         'total_time': request.form.get('total_time'),
+        'serves': request.form.get('serves'),
         'ingredients': request.form.get('ingredients'),
         'method': request.form.get('method'),
         'tips': request.form.get('tips'),
@@ -157,6 +165,11 @@ def delete_recipe(recipe_id):
     flash("Recipe Succesfully Deleted")
     return redirect(url_for('get_recipes'))
 
+
+@app.route('/get_open_recipe/<recipe_id>')
+def get_open_recipe(recipe_id):
+    the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    return render_template("recipe.html", recipe=the_recipe)
 
 # ------ categories ------ #
 
