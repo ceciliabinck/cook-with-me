@@ -55,16 +55,6 @@ hr {
     color: orange;
 }
 
-
-
-.open {
-    height: 25px;
-    width: 130px;
-    line-height: 24px;
-    margin: 5px 5px;
-    padding: 0 0.5em;
-}
-
 /* recipe cards */
 /* front side */
 
@@ -90,6 +80,14 @@ hr {
 
 .card .card-reveal .card-middle{
     padding-top: 10px;
+}
+
+.open {
+    height: 25px;
+    width: 130px;
+    line-height: 24px;
+    margin: 5px 5px;
+    padding: 0 0.5em;
 }
 
 .card .card-reveal .card-end p {
