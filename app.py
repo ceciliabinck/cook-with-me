@@ -81,15 +81,16 @@ def login():
 def profile(username):
     # grabe the session user from the db
     existing_user = mongo.db.user.find_one({'username': username})
-    # grape the cookbook_name from the db from this existing_user
-    cookbook_user = mongo.db.user.find_one({'cookbook_name': cookbook_name})
+    # grape the cookbook_name from the db from this existing_user 
+    print(existing_user.get("cookbook_name"))
 
 
     # and take all the recipes with this cookbook_mane from recipes
+    mongo.db.recipes.find_all({'cookbook_name': existing_user.get("cookbook_name")})
     # show those on profile
 
     if session['user']:
-        return render_template('profile.html', user=existing_user, cookbook=cookbook_user)
+        return render_template('profile.html', user=existing_user)
 
     return redirect(url_for('login'))
 
