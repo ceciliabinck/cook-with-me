@@ -128,6 +128,7 @@ In the About section is an explination about the idea about this website. The te
 - <a href="https://www.diffchecker.com/">Diffchecker</a>
 - <a href="https://balsamiq.com/">Balsamiq</a>
 - <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a>
+- <a href="https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery">Add and Remove input fields</a>
 
 
 # Bugs
