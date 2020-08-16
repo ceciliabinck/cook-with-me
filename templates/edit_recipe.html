@@ -90,7 +90,7 @@
             <div>
             <textarea id="ingredients" name="ingredients[]" class="validate materialize-textarea" required>{{recipe.ingredients}}</textarea>
             </div>
-            
+        </div>
         </div>
         <div class="row">
         <div class="input_fields_wraps col s12">
@@ -110,14 +110,16 @@
         <div class="row">
         <!-- Switch -->
         <div class="switch">
+            <p>Vegetarian</p>
             <label>
+            No
             {% if recipe.vegetarian %}
             <input id="vegetarian" name="vegetarian" type="checkbox" checked />
             {% else %}
             <input id="vegetarian" name="vegetarian" type="checkbox" />
             {% endif %}
             <span class="lever"></span>
-            Vegetarian
+            Yes
             </label>
         </div>
         </div>
