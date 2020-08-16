@@ -2,8 +2,8 @@
 <h1 class="center-align">Recipe</h1>
 
 <div class="card">
-    <div class="row">
-        <div class="col s12 m4">
+    <div class="row orange">
+        <div class="col s12 m4 top-left">
             <p>{{recipe.recipe_name}}</p>
             <p>{{recipe.recipe_description}}</p>
             <p>{{recipe.cookbook_name}}</p>
@@ -11,7 +11,7 @@
         <div class="col s12 m4">
 	        <img class="card-img" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> 
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m4 center-align top-right">
             <p>Prep Time: {{recipe.prep_time}}</p>
             <p>Cook Time: {{recipe.cook_time}}</p>
             <p>Total Time: {{recipe.total_time}}</p>
@@ -19,11 +19,13 @@
         </div>
     </div>
     <div class="row">
-        <div id="ingredient" class="col s12 m6">
-        <p>{{recipe.ingredients}}</p>
+        <div class="col s12 m6">
+        <p>ingredients</p>
+        <p id="ingredient">{{recipe.ingredients}}</p>
         </div>
-        <div id="methods" class="col s12 m6">
-        <p>{{recipe.method}}</p>
+        <div class="col s12 m6">
+        <p>Method</p>
+        <p id="methods">{{recipe.method}}</p>
         </div>
     </div>
     <div class="row">
@@ -31,9 +33,9 @@
         <p>Tips: {{recipe.tips}}</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row orange">
         <div class="col s12">
-        <a href="{{ url_for('get_recipes') }}" class="go_back orange-text">Go Back</a>
+        <a href="{{ url_for('get_recipes') }}" class="go_back black-text">Go Back</a>
         </div>
     </div>
 </div>
