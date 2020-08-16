@@ -19,22 +19,22 @@
         </div>
     </div>
     <div class="row">
-        <div class="col s12 m6">
-        <p>ingredients</p>
+        <div class="col middle-left s12 m6">
+        <p>Ingredients</p>
         <p id="ingredient">{{recipe.ingredients}}</p>
         </div>
-        <div class="col s12 m6">
+        <div class="col middle-right s12 m6">
         <p>Method</p>
         <p id="methods">{{recipe.method}}</p>
         </div>
     </div>
     <div class="row">
-        <div class="col s12">
+        <div class="bottom col s12">
         <p>Tips: {{recipe.tips}}</p>
         </div>
     </div>
     <div class="row orange">
-        <div class="col s12">
+        <div class="bottom col s12">
         <a href="{{ url_for('get_recipes') }}" class="go_back black-text">Go Back</a>
         </div>
     </div>

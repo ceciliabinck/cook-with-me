@@ -54,6 +54,15 @@ img .card-img {
 .top-right {
     margin-top: 60px;
 }
+
+.middle-left,
+.bottom {
+    padding-left: 20px;
+}
+
+.middle-right {
+    padding-right: 20px;
+}
 /*
 ** home page
 */
