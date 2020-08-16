@@ -1,43 +1,41 @@
 {% extends 'base.html' %} {% block content %}
 <h1 class="center-align">Recipe</h1>
 
-{% for recipe in recipes %}
-    {{recipe.recipe_name}} {{recipe.recipe_description}} {{recipe.recipe_image}}
-    {{recipe.cookbook_name}}
-    {{recipe.prep_time}} {{recipe.cook_time}} {{recipe.total_time}}
-    {{recipe.ingredients}}
-    {{recipe.method}}
-    {{recipe.tips}}
-    {{recipe.category_name}} {{recipe.difficulty_level}} 
- {% endfor %} 
+<div class="card">
+    <div class="row">
+        <div class="col s12 m4">
+            <p>{{recipe.recipe_name}}</p>
+            <p>{{recipe.recipe_description}}</p>
+            <p>{{recipe.cookbook_name}}</p>
+        </div>
+        <div class="col s12 m4">
+	        <img class="card-img" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> 
+        </div>
+        <div class="col s12 m4">
+            <p>Prep Time: {{recipe.prep_time}}</p>
+            <p>Cook Time: {{recipe.cook_time}}</p>
+            <p>Total Time: {{recipe.total_time}}</p>
+            <p>Serves: {{recipe.serves}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div id="ingredient" class="col s12 m6">
+        <p>{{recipe.ingredients}}</p>
+        </div>
+        <div id="methods" class="col s12 m6">
+        <p>{{recipe.method}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+        <p>Tips: {{recipe.tips}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+        <a href="{{ url_for('get_recipes') }}" class="go_back orange-text">Go Back</a>
+        </div>
+    </div>
+</div>
 
- 
-    <ul class="tabs">
-      <li class="tab col s3"><a href="#recipe_description">Recipe Description</a></li>
-      <li class="tab col s3"><a href="#time">Time</a></li>
-      <li class="tab col s3">
-        <a class="active" href="#ingredients">Ingredients</a>
-      </li>
-      <li class="tab col s3 disabled"><a href="#method">Method</a></li>
-      <li class="tab col s3"><a href="#tips">Tips</a></li>
-    </ul>
-
-
-  <div class="container" id="recipe_description">
-    
-  </div>
-  <div class="container" id="time">
-    
-  </div>
-  <div class="container" id="ingredients">
-   
-  </div>
-  <div class="container" id="method">
-   
-  </div>
-  <div class="container" id="Tips">
-    
-  </div>
-
-  
-  {% endblock %}
+{% endblock %}
