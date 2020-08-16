@@ -53,7 +53,11 @@ So I went to look for this trustworthy font on Google fonts, turns out it is not
 
 The second font I wanted to be a bit mote fancy to draw users eyes to it. According to fact 2 in this article "Fancier fonts are associated with more skill in certain professions; in one study, diners who received menus with fancy fonts assumed the chef had more skill."
 
-TIt cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold. 
+It cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold. 
+
+#### Changes
+
+After putting the different font families in the page and working with it for a couple of days. I found out I did not like the **Libre Baskerville** at all. The two fonts did not match well in the end either. So I have decided to change the main font family.
 
 ### Colours
 
@@ -141,3 +145,11 @@ In the About section is an explination about the idea about this website. The te
 - Bug 3
 **Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
 **Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
+
+- Bug 4
+**Problem**: In the user Profile page I want to put all the recipes that that user has inserted But it is giving me an error: TypeError: 'Collection' object is not callable. If you meant to call the 'find_all' method on a 'Collection' object it is failing because no such method exists.
+**Solution**:
+
+- Bug 5
+**Problem**: After clicking on the view recipe button on a recipe card. It would not present the hole recipe.
+**Solution**: I had used the same way as to setting up my recipe card. When I was told on Slack that it doesn't have to be in a for loop as I only need one. So after changing that the different recipes got presented.
