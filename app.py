@@ -82,11 +82,11 @@ def profile(username):
     # grabe the session user from the db
     existing_user = mongo.db.user.find_one({'username': username})
     # grape the cookbook_name from the db from this existing_user 
-    print(existing_user.get("cookbook_name"))
-
-
+    cook = existing_user.get("cookbook_name")
+    
+    
     # and take all the recipes with this cookbook_mane from recipes
-    mongo.db.recipes.find_all({'cookbook_name': existing_user.get("cookbook_name")})
+    mongo.db.recipes.find_one({'cookbook_name': cook})
     # show those on profile
 
     if session['user']:
@@ -151,8 +151,8 @@ def update_recipe(recipe_id):
         'cook_time': request.form.get('cook_time'),
         'total_time': request.form.get('total_time'),
         'serves': request.form.get('serves'),
-        'ingredients': request.form.get('ingredients'),
-        'method': request.form.get('method'),
+        'ingredients': request.form.get('ingredients[]'),
+        'method': request.form.get('method[]'),
         'tips': request.form.get('tips'),
         'vegetarian': request.form.get('vegetarian')
     })
