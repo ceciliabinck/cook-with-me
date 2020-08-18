@@ -4,31 +4,35 @@
 <div class="container">
     <div class="row card-panel">
     <form action="{{ url_for('insert_recipe') }}" method="POST" class="col s12">
-
+        <!-- recipe name -->
         <div class="row">
         <div class="input-field col s12">
             <input id="recipe_name" name="recipe_name" type="text" class="validate" required />
             <label for="icon_prefix">Recipe Name</label>
         </div>
         </div>
+        <!-- recipe description -->
         <div class="row">
         <div class="input-field col s12">
             <textarea id="recipe_description" name="recipe_description" class="validate materialize-textarea" cols="30" rows="10" required></textarea>
             <label for="icon_prefix">Recipe Description</label>
         </div>
         </div>
+        <!-- cookbook name -->
         <div class="row">
         <div class="input-field col s12">
             <input id="cookbook_name" name="cookbook_name" type="text" class="validate" required />
             <label for="icon_prefix">Cookbook Name</label>
         </div>
         </div>
+        <!-- image  -->
         <div class="row">
         <div class="input-field col s12">
             <input id="recipe_image" name="recipe_image" type="text" class="validate" required />
             <label for="icon_prefix">Recipe Image</label>
         </div>
         </div>
+        <!-- category -->
         <div class="row">
         <div class="input-field col s12">
             <select id="category_name" name="category_name">
@@ -40,7 +44,7 @@
             <label>Category Name</label>
         </div>
         </div>
-
+        <!-- difficulty level -->
         <div class="row">
         <div class="input-field col s12">
             <select id="difficulty" name="difficulty">
@@ -52,30 +56,35 @@
             <label>Difficulty Level</label>
         </div>
         </div>
+        <!-- prep -->
         <div class="row">
         <div class="input-field col s12">
             <input id="prep_time" name="prep_time" type="text" class="validate" />
             <label for="icon_prefix">Prep Time in minutes</label>
         </div>
         </div>
+        <!-- cooking -->
         <div class="row">
         <div class="input-field col s12">
             <input id="cook_time" name="cook_time" type="text" class="validate" required />
             <label for="icon_prefix">Cooking Time in minutes</label>
         </div>
         </div>
+        <!-- prep + cook time -->
         <div class="row">
         <div class="input-field col s12">
             <input id="total_time" name="total_time" type="text" class="validate" required />
             <label for="icon_prefix">Total Time in minutes</label>
         </div>
         </div>
+        <!-- how many people can eat from this recipe -->
         <div class="row">
         <div class="input-field col s12">
             <input id="serves" name="serves" type="text" class="validate" required />
             <label for="icon_prefix">Serves</label>
         </div>
         </div>
+        <!-- put in ingredients -->
         <div class="row">
         <div class="input_field_wrap col s12">
             <label for="icon_prefix">Ingredients</label>
@@ -85,6 +94,7 @@
             </div>
         </div>
         </div>
+        <!-- put in method -->
         <div class="row">
         <div class="input_fields_wrap col s12">
             <label for="icon_prefix">Method</label>
@@ -94,6 +104,7 @@
             </div>
         </div>
         </div>
+        <!-- giving tips -->
         <div class="row">
         <div class="input-field col s12">
             <textarea id="tips" name="tips" class="validate materialize-textarea"></textarea>
@@ -112,6 +123,7 @@
             </label>
         </div>
         </div>
+        <!-- button -->
         <div class="row">
         <button class="btn waves-effect waves-light light green" type="submit" name="action">
             Add Recipe

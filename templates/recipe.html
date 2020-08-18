@@ -2,6 +2,7 @@
 <h1 class="center-align">Recipe</h1>
 
 <div class="card">
+<!-- orange top row -->
     <div class="row orange">
         <div class="col s12 m4 top-left">
             <p>{{recipe.recipe_name}}</p>
@@ -19,6 +20,7 @@
         </div>
     </div>
     <div class="row">
+    <!-- white middle rows -->
         <div class="col middle-left s12 m6">
         <p>Ingredients</p>
         <p id="ingredient">{{recipe.ingredients}}</p>
@@ -35,6 +37,7 @@
         </div>
     </div>
     <div class="row orange">
+    <!-- bottom orange row -->
         <div class="bottom col s12">
         <a href="{{ url_for('get_recipes') }}" class="go_back black-text">Go Back</a>
         </div>
