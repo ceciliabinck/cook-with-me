@@ -41,11 +41,11 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Login and register form are secured.
 - Can click on Recipe name which displays the information needed to make the recipe.
 
-## Design Choices
+# Design Choices
 
 The theme of this project is food and there are a lot of websites like the one I am making for this project. So I wanted to do some research to see if there was anything that I could put in my design to make my website more appealing to users. And that would make users more likely to try and make some of the different recipes on my website.
 
-### Fonts
+## Fonts
 
 I also looked in to the affects of different fonts and I found an article that talked about scientific facts about fonts. It states that "Experiments show that people are more likely to believe information set in Baskerville". People see Baskerville as a trustworthy font. So that would hopefully mean that users would be more likely to choose my website over another one. As there is a lot of competition in the segment.
 
@@ -55,11 +55,11 @@ The second font I wanted to be a bit mote fancy to draw users eyes to it. Accord
 
 It cost me some time to find because I had to look through all 999 different family font, where I found 6 that I liked. After that I had to test the different fonts with my primary font. In the end I choose for the font family **Playball** as my second font, even though I find it a bit to bold. 
 
-#### Changes
+### Changes
 
 After putting the different font families in the page and working with it for a couple of days. I found out I did not like the **Libre Baskerville** at all. The two fonts did not match well in the end either. So I have decided to change the main font family.
 
-### Colours
+## Colours
 
 I looked in to which colors would make people more likely to give them an appetite. From all the different articles that I have read I found out that the colours yellow, orange, green and red stimulate most peoples appetite. In some articles they also name the colour turquoise because it's often connected to happiness and the feeling of being carefree. 
 The colours orange and yellow are the 2 that are seen as the colours that mostly only have positive effects on your appetite. 
@@ -80,26 +80,36 @@ The color red raises a person’s blood pressure, heart rate, and causes hunger 
 
 Therefor these are the four colours I am going to use in this project. The colours orange and yellow I will be using more primary and red and green I will be using to high lights.
 
-## Wireframes
+# Wireframes
 
 I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq</a>. First I started by making a design for the desktop version, which I than translated to mobile/tablet version of the same design. I am not sure yet if I shoudl create a different design for tablet mode as now a days you have many different sizes for tablets. To get a better understanding of how the elements will be structured on the page.
 
 View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/master/wireframes">here</a>
 
-### Styling
+## Styling
 
 The navbar is vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours have a positive efect on your appetite.
 
-#### home
+### home
 
 The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section of the navbar is short h5 of what the idea is of the website.
 
 In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page.
 
-#### Recipes
+### Recipes
 
-## Technologies Used
-### Languages
+# Features
+
+- Navbar
+- carousel
+- Cards
+
+# Features Left to Implement
+
+- The feature where you can invite friends be join you cookbook.
+
+# Technologies Used
+## Languages
 
 - Markdown
 - HTML
