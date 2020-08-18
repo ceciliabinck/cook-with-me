@@ -106,15 +106,16 @@ In the About section is an explination about the idea about this website. The te
 
 # Features Left to Implement
 
-- The feature where you can invite friends be join you cookbook.
+- The feature where you can invite friends to join you cookbook.
 
 # Technologies Used
+
 ## Languages
 
 - Markdown
 - HTML
 - CSS
-- Jquery
+- Jquery/JavaScript
 - Python
 
 ### Tools & Libraries
