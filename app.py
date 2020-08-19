@@ -83,14 +83,14 @@ def profile(username):
     existing_user = mongo.db.user.find_one({'username': username})
     # grape the cookbook_name from the db from this existing_user 
     cook = existing_user.get("cookbook_name")
-    
-    
-    # and take all the recipes with this cookbook_mane from recipes
-    mongo.db.recipes.find_one({'cookbook_name': cook})
-    # show those on profile
 
+    # and take all the recipes with this cookbook_mane from recipes
+    # show those on profile
+    book = mongo.db.recipes.find({'cookbook_name': cook})
+    
+   
     if session['user']:
-        return render_template('profile.html', user=existing_user)
+        return render_template('profile.html', user=existing_user, recipe=book)
 
     return redirect(url_for('login'))
 
@@ -139,6 +139,7 @@ def edit_recipe(recipe_id):
 @app.route('/update_recipe/<recipe_id>', methods=['POST'])
 def update_recipe(recipe_id):
     recipes = mongo.db.recipes
+
     recipes.update( {'_id': ObjectId(recipe_id)},
     {
         'recipe_name': request.form.get('recipe_name'),
@@ -151,7 +152,7 @@ def update_recipe(recipe_id):
         'cook_time': request.form.get('cook_time'),
         'total_time': request.form.get('total_time'),
         'serves': request.form.get('serves'),
-        'ingredients': request.form.get('ingredients[]'),
+        'ingredients': ingredient_list,
         'method': request.form.get('method[]'),
         'tips': request.form.get('tips'),
         'vegetarian': request.form.get('vegetarian')
@@ -177,7 +178,7 @@ def get_open_recipe(recipe_id):
 
 @app.route('/get_categories')
 def get_categories():
-    categories = list(mongo.db.categories.find().sort("categorie_name", 1))
+    categories = list(mongo.db.categories.find().sort("category_name", 1))
     return render_template('categories.html', categories=categories)
 
 
