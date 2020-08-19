@@ -21,6 +21,18 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Clear images of the finished dish so they have an idea how it is going to look.
 - finding tips to improve there cooking skills.
 
+### User stores
+
+- As a traveler, I would like to store the recipes I learned in my cooking class. So I can make them at home.
+- As a someone how loves to cook, I want to share some easy recipes with my friends. So that they can see it is not that difficult.
+- As a student, I would like to find some really easy recipes. So I can save money.
+- As a traveler, I would like my friend to share there local dishes. So I can learn to make them my self.
+- As a terrible cook. I would like to learn to make a good dish. So I can impress my date.
+- As a foodie, I want to share unconventional recipes that taste great. So that people might broader there tast buds.
+- As a stay at home mom. I want share some easy kid friendly meals. So other moms could stress less when it is dinner time.
+- As a beginning cook, I want to see an image of dish. So I have something to compare my result with.
+- As a student, I want to know the cooking time. So I can make dinner inbetween studying.
+
 ## User Requirements and Expectations
 
 ### Requirements
@@ -40,6 +52,12 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - Form Validation works correctly.
 - Login and register form are secured.
 - Can click on Recipe name which displays the information needed to make the recipe.
+
+# Wireframes
+
+I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq</a>. First I started by making a design for the desktop version, which I than translated to mobile/tablet version of the same design. I am not sure yet if I shoudl create a different design for tablet mode as now a days you have many different sizes for tablets. To get a better understanding of how the elements will be structured on the page.
+
+View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/master/wireframes">here</a>
 
 # Design Choices
 
