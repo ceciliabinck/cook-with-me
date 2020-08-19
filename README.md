@@ -133,7 +133,7 @@ In the About section is an explination about the idea about this website. The te
 - For creating my README.md:
     - <a href="https://github.com/Geomint/holiday-destinations">A good example of a README.md</a>
     - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
-- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Are where the recipes are from
+- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a>Where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
 - <a href="https://www.diffchecker.com/">Diffchecker</a>
