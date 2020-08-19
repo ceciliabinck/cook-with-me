@@ -9,8 +9,42 @@
             </div>
         </div>
     </div>
+
+    <!-- recipes from the user-->
+<div id="recipe" class="row">
+	 {% for recipe in recipes %}
+		<div class="card col s12 m3 l2">
+			<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> </div>
+			<div class="card-content"><i class="material-icons right">more_vert</i><span class="card-title activator grey-text text-darken-4">{{recipe.recipe_name}}</span>
+				<p class="activator">{{recipe.cookbook_name}}</p>
+			</div>
+			<div class="card-reveal">
+            <div class="row col s12"><span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</span>
+            </div>
+				<div class="row col s12 card-middle">
+					<div class="col s4"> <i class="material-icons prefix">query_builder</i>
+						<p>{{recipe.prep_time}}</p>
+						<p>Prep</p>
+					</div>
+					<div class="col s4"> <i class="material-icons prefix">hourglass_empty</i>
+						<p>{{recipe.cook_time}}</p>
+						<p>Cook</p>
+					</div>
+					<div class="col s4"> <i class="material-icons prefix">restaurant</i>
+						<p>{{recipe.serves}}</p>
+						<p>Serves</p>
+					</div>
+				</div>
+                <div class="card-end col s12">
+                    <p>{{recipe.recipe_description}}</p> <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a> 
+                </div>
+			</div>
+		</div> {% endfor %}
     
 {% endblock %}
+
+<!--<a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
+                    <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a> -->
 
 <!-- So here I want the have the users recipes.
     I am hoping to get those by using the cookbook_name.
@@ -19,8 +53,7 @@
     And there put the edit and delete options. -->
 
 <!--
-      <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
-      <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
+      
         <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a>
     </div>
     <div class="col s12 m4">
