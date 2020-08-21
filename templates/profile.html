@@ -13,11 +13,13 @@
     <!-- recipes from the user-->
 <div id="recipe" class="row">
 	 {% for recipe in recipe %}
+		<!-- front of the card -->
 		<div class="card col s12 m3 l2">
 			<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> </div>
 			<div class="card-content"><i class="material-icons right">more_vert</i><span class="card-title activator grey-text text-darken-4">{{recipe.recipe_name}}</span>
 				<p class="activator">{{recipe.cookbook_name}}</p>
 			</div>
+            <!-- back of the card -->
 			<div class="card-reveal">
             <div class="row col s12"><span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</span>
             </div>
