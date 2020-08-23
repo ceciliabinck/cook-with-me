@@ -194,5 +194,10 @@ In the About section is an explination about the idea about this website. The te
 
 ## Testing by friends and family
 
+I asked some of my friends and family members to test my project. So would get some idea's of what i needed tot fix or they would see something I didn't even think about. 
 
-
+Test user 1: 
+- **Issue 1**: The text of the "About" section is a bit too long, and it conflicts with the simple feel the rest of the website tries to give.
+**Solution**: I shorted the "About" text and put it in a white card to make it look similar to the rest of the page.
+- **Issue 2**: Cookbook field is to short, doesn't fit the simple I-can't-cook public.
+**Solution**: I removed the lenght restriction on the cookbook name field.
