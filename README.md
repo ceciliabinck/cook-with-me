@@ -1,3 +1,5 @@
+![See your site responsive](Photos-Screenshot(261).png)
+
 Growing up me and my siblings learned how to cook at an early age, starting with some basic dishes. So when I was older and going to school I always found it strange that most of my classmate could not cook. When I would ask them about that they would say that there, mostly, mother cooked or they had not learned to cook and take out is way faster. Cooking is not that difficult, if only I could help them figure that out.
 
 When I finished school I decided to travel instead of study on and starting to work like all my classmates. While traveling I saw new cultures and new exiting foods and no idea how to make them. I made new friends from all over the world and I got to try some of there favorite dishes. I have asked how to make some of those dishes but I was not able to remember all of them and I did not have anywhere to write them down in a save place.
