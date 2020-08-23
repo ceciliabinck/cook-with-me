@@ -31,6 +31,7 @@ body{
     width: 100%
 }
 
+
 .container .row .col img {
     width: 100%;
 }
@@ -86,10 +87,9 @@ hr {
 /* recipe cards */
 /* front side */
 
-#recipes .card {
-    margin: 10px;
-    height: 440px;
-    width: 200px;
+#recipes .card,
+#recipe .card {
+    margin: 5px;
 }
 
 .card .card-title {
