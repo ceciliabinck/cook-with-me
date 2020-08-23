@@ -86,7 +86,7 @@ It cost me some time to find because I had to look through all 999 different fam
 
 ### Changes
 
-After putting the different font families in the page and working with it for a couple of days. I found out I did not like the **Libre Baskerville** at all. The two fonts did not match well in the end either. So I have decided to change the main font family.
+After putting the different font families on the page and working with it for a couple of days. I found out I did not like the **Libre Baskerville** at all. The two fonts did not match well in the end either. In the beginning I was not sure about teh **Playball** font but in the end I liked it a lot. So I have decided to change the main font family. I choose to look at the pairing section on google fonts and decided on a font that I have already used before **Roboto**. They are a bit similar but **Playball** is more elegant. So I still have a simple and a elegant font but with a similar base.
 
 ## Colours
 
