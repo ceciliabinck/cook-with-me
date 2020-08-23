@@ -39,7 +39,7 @@ body{
 /* home page */
 
 .carousel {
-    height: 500px;
+    margin-top: -50px;
 }
 
 
@@ -130,3 +130,4 @@ img .card-img {
 .middle-right {
     padding-right: 20px;
 }
+
