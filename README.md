@@ -215,3 +215,14 @@ To deploy this page to Heroku.com from its GitHub repository, the following step
 6. Then Enable Automatic Deploys.
 7. Go to the top of the page and click on open app to see the webpage of Cook with me, https://cook-along-me.herokuapp.com/
 
+# Running Cook with me Locally
+
+Cloning Cook with me from GitHub:
+
+1. Navigate to https://github.com/ceciliabinck/(cook-with-me).
+2. Click the green 'Clone or Download' button.
+3. Copy the url in the dropdown box.
+4. Using your favorite IDE open up your preferred terminal.
+5. Navigate to your desired file location.
+6. Copy the following code and input it into your terminal to clone Cook with me.
+7. git clone https://github.com/ceciliabinck/(cook-with-me).git
