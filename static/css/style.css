@@ -131,3 +131,19 @@ img .card-img {
     padding-right: 20px;
 }
 
+/* media query */
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+    font-size: 1.9rem;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 601px){
+    .row .col.m3 {
+        width: 31%;
+    }
+}
