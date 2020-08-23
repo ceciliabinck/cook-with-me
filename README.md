@@ -201,3 +201,17 @@ Test user 1:
 **Solution**: I shorted the "About" text and put it in a white card to make it look similar to the rest of the page.
 - **Issue 2**: Cookbook field is to short, doesn't fit the simple I-can't-cook public.
 **Solution**: I removed the lenght restriction on the cookbook name field.
+
+# Deployment :rocket:
+
+This project was developed using the Gitpod IDE, committed to git and pushed to GitHub.
+To deploy this page to Heroku.com from its GitHub repository, the following steps were taken:
+
+1. Log into Heroku.
+2. Go to the button with new on it, in your personal page. Then choose the create new app option.
+3. I named the new all cook-along-me, choose a region and clicked create app.
+4. In the app page go to the deploy tap.
+5. Connect with Github and choose the correct Github repository you want to use.
+6. Then Enable Automatic Deploys.
+7. Go to the top of the page and click on open app to see the webpage of Cook with me, https://cook-along-me.herokuapp.com/
+
