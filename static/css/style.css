@@ -39,6 +39,7 @@ body{
 /* home page */
 
 .carousel {
+    height: 500px;
     margin-top: -50px;
 }
 
@@ -141,9 +142,17 @@ img .card-img {
     h1 {
         font-size: 35px;
     }
+
+    .carousel {
+        height: 400px;
+        margin-top: -60px;
+
+    }
 }
+
 @media only screen and (min-width: 601px){
     .row .col.m3 {
         width: 31%;
     }
+
 }
