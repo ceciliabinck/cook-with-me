@@ -112,15 +112,15 @@ In the About section is an explination about the idea about this website. The te
 
 # Features
 
-- Navbar
-- carousel
-- Cards
+- [x] Navbar
+- [x] carousel
+- [x] Cards
 
 # Features Left to Implement
 
-- The feature where you can invite friends to join you cookbook.
-- Giving users the possibility to put more than one category with there recipe.
-- Add to the ingredients and method field a button that user can make different lines to fil these field in.
+- [ ] The feature where you can invite friends to join you cookbook.
+- [ ] Giving users the possibility to put more than one category with there recipe.
+- [ ] Add to the ingredients and method field a button that user can make different lines to fil these field in.
 
 # Technologies Used
 
