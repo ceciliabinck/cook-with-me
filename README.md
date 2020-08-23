@@ -1,4 +1,4 @@
-![See your site responsive](Photos-Screenshot(261).png)
+![See your site responsive](Screenshot(261).png)
 
 Growing up me and my siblings learned how to cook at an early age, starting with some basic dishes. So when I was older and going to school I always found it strange that most of my classmate could not cook. When I would ask them about that they would say that there, mostly, mother cooked or they had not learned to cook and take out is way faster. Cooking is not that difficult, if only I could help them figure that out.
 
