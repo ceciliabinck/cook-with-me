@@ -115,13 +115,13 @@ In the beginning of this project I was not sure if I wanted any icones besides t
 
 ## Styling
 
-The navbar is vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours have a positive efect on your appetite.
+The navbar is vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours I choose them because they have a positive efect on your appetite. I choose to style the page titles all in H1 and centered on the page.
 
 ### home
 
 The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section of the navbar is short h5 of what the idea is of the website.
 
-In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page.
+In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page. I added a white box around the about section as this will make it easier to read for users.
 
 ### Recipes
 
