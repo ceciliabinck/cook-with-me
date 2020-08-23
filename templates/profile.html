@@ -14,7 +14,7 @@
 <div id="recipe" class="row">
 	 {% for recipe in recipe %}
 		<!-- front of the card -->
-		<div class="card col s12 m3 l2">
+		<div class="card col s12 m3">
 			<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> </div>
 			<div class="card-content"><i class="material-icons right">more_vert</i><span class="card-title activator grey-text text-darken-4">{{recipe.recipe_name}}</span>
 				<p class="activator">{{recipe.cookbook_name}}</p>
@@ -38,15 +38,16 @@
 					</div>
 				</div>
                 <div class="card-end col s12">
-                    <p>{{recipe.recipe_description}}</p> <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a> 
+                    <p>{{recipe.recipe_description}}</p> 
+                    <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a><a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
                 </div>
 			</div>
 		</div> {% endfor %}
     
 {% endblock %}
 
-<!--<a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a>
-                    <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a> -->
+
+                     -->
 
 <!-- So here I want the have the users recipes.
     I am hoping to get those by using the cookbook_name.
