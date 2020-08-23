@@ -125,6 +125,7 @@ In the About section is an explination about the idea about this website. The te
 # Features Left to Implement
 
 - The feature where you can invite friends to join you cookbook.
+- Giving users the possibility to put more than one category with there recipe.
 
 # Technologies Used
 
@@ -186,4 +187,7 @@ In the About section is an explination about the idea about this website. The te
 
 # Testing
 
-## Testing by users
+## Testing by friends and family
+
+
+
