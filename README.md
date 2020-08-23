@@ -125,6 +125,10 @@ In the About section is an explination about the idea about this website. The te
 
 ### Recipes
 
+I styled the recipes in card panel that has an reveal. So that the user just can the title, image and cookbook name on first glance at the card. The background color of the cards is white. The background color together with the simplistic look af the front of the card should give the user a calming effect even though the very bright and loud background color.
+
+The back of the reveal card is styled is a bit busier as I had to add a bit more information to it. I devided the card in to 3 sections to make it easier to read. In the first section I put the name of the recipe again so an user knows which recipe card it has turned. The second section tells the user more information about times and servings of the recipe. In the last section the user can find a description of the dish with a button to open the hole recipe.
+
 # Features
 
 - [x] Navbar
