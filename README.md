@@ -109,6 +109,10 @@ The color red raises a person’s blood pressure, heart rate, and causes hunger 
 
 Therefor these are the four colours I am going to use in this project. The colours orange and yellow I will be using more primary and red and green I will be using to high lights.
 
+## Icons
+
+In the beginning of this project I was not sure if I wanted any icones besides the hamburger icon for my mobile menu bar. As I went on in this build I found it visually better to add icons to the small and simple forms, like login and register. I used the icons from the icons librarie from materialize. The icons are easy to understand and they provide a visual support to the input fields.
+
 ## Styling
 
 The navbar is vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours have a positive efect on your appetite.
