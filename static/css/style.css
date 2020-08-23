@@ -36,9 +36,12 @@ body{
 }
 
 
-/*
-** home page
-*/
+/* home page */
+
+.carousel {
+    height: 500px;
+}
+
 
 hr {
     margin: 50px 0;
