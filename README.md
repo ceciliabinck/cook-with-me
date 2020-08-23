@@ -183,3 +183,5 @@ In the About section is an explination about the idea about this website. The te
 - Bug 5
 **Problem**: After clicking on the view recipe button on a recipe card. It would not present the hole recipe.
 **Solution**: I had used the same way as to setting up my recipe card. When I was told on Slack that it doesn't have to be in a for loop as I only need one. So after changing that the different recipes got presented.
+
+# Testing
