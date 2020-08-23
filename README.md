@@ -178,10 +178,12 @@ In the About section is an explination about the idea about this website. The te
 
 - Bug 4
 **Problem**: In the user Profile page I want to put all the recipes that that user has inserted But it is giving me an error: TypeError: 'Collection' object is not callable. If you meant to call the 'find_all' method on a 'Collection' object it is failing because no such method exists.
-**Solution**:
+**Solution**: Turnes out I did two things wrong in the code in my app.py. first of all I did not give my search to the different recipes an variable. Secondly I used the wrong variable in my return statement. In my code in the profile.html I misunderstood how the for loop works. After changing all these things my data was presented on the profile.
 
 - Bug 5
 **Problem**: After clicking on the view recipe button on a recipe card. It would not present the hole recipe.
 **Solution**: I had used the same way as to setting up my recipe card. When I was told on Slack that it doesn't have to be in a for loop as I only need one. So after changing that the different recipes got presented.
 
 # Testing
+
+## Testing by users
