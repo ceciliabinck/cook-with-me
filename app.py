@@ -87,8 +87,7 @@ def profile(username):
     # and take all the recipes with this cookbook_mane from recipes
     # show those on profile
     book = mongo.db.recipes.find({'cookbook_name': cook})
-    
-   
+
     if session['user']:
         return render_template('profile.html', user=existing_user, recipe=book)
 
@@ -139,6 +138,11 @@ def edit_recipe(recipe_id):
 @app.route('/update_recipe/<recipe_id>', methods=['POST'])
 def update_recipe(recipe_id):
     recipes = mongo.db.recipes
+    _ingredients = ingredients
+    list = []
+    ingredients = [ingredients for ingredient in _ingredients]
+    ingredients_list = list.append(ingredients)
+
 
     recipes.update( {'_id': ObjectId(recipe_id)},
     {
