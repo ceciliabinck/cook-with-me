@@ -98,12 +98,6 @@ The color red raises a person’s blood pressure, heart rate, and causes hunger 
 
 Therefor these are the four colours I am going to use in this project. The colours orange and yellow I will be using more primary and red and green I will be using to high lights.
 
-# Wireframes
-
-I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq</a>. First I started by making a design for the desktop version, which I than translated to mobile/tablet version of the same design. I am not sure yet if I shoudl create a different design for tablet mode as now a days you have many different sizes for tablets. To get a better understanding of how the elements will be structured on the page.
-
-View my wireframes <a href="https://github.com/ceciliabinck/Cook-with-me/tree/master/wireframes">here</a>
-
 ## Styling
 
 The navbar is vertical on top of the screen. The navbar on large screen is fully viewable. On smaller screens it will present it self as a hamburger navbar where as you click it the menu slids out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the color **White**. I tried to give it the color yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the color **#ffff80**. As for these 2 colours have a positive efect on your appetite.
