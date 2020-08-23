@@ -31,39 +31,11 @@ body{
     width: 100%
 }
 
-
 .container .row .col img {
     width: 100%;
 }
 
-/* recipe  */
 
- #ingredient,
-#methods {
-    white-space: pre-wrap; 
-} 
-
-img .card-img {
-    width: 80%;
-    margin-left: 25px;
-}
-
-.top-left {
-    padding-left: 35px;
-    font-size: 23px;
-}
-.top-right {
-    margin-top: 60px;
-}
-
-.middle-left,
-.bottom {
-    padding-left: 20px;
-}
-
-.middle-right {
-    padding-right: 20px;
-}
 /*
 ** home page
 */
@@ -125,4 +97,33 @@ hr {
 
 .card .card-reveal .row{
     margin-bottom: 10px;
+}
+
+/* recipe  */
+
+ #ingredient,
+#methods {
+    white-space: pre-wrap; 
+} 
+
+img .card-img {
+    width: 80%;
+    margin-left: 25px;
+}
+
+.top-left {
+    padding-left: 35px;
+    font-size: 23px;
+}
+.top-right {
+    margin-top: 60px;
+}
+
+.middle-left,
+.bottom {
+    padding-left: 20px;
+}
+
+.middle-right {
+    padding-right: 20px;
 }
