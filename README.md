@@ -35,6 +35,15 @@ This project is aimed for everyone how is interested in cooking no mather the ho
 - As a beginning cook, I want to see an image of dish. So I have something to compare my result with.
 - As a student, I want to know the cooking time. So I can make dinner inbetween studying.
 
+### How this project can help them
+
+- As long as you have internet you can login from any where in the world.
+- There is the option to share a cookbook with your friends. So they can easily your recipes, or your friends with you.
+- On every recipe card it shows the difficulty level of the dish.
+- On the recipe cards you can also find how long it takes to make that dish.
+- It is very easy to insert a dish on to the site and it can be seen directly after doing so.
+- We ask users to provide an image of the dish so other users will have an idea of how the dish will look like.
+
 ## User Requirements and Expectations
 
 ### Requirements
