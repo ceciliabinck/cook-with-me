@@ -72,9 +72,6 @@ hr {
     margin: 5px;
 }
 
-.card .card-title {
-    font-size: 24px;
-}
 
 .card .card-content {
     padding: 10px;
@@ -198,7 +195,24 @@ main {
     .carousel {
         height: 400px;
         margin-top: -60px;
+    }
 
+    /* recipe cards*/
+
+    .card .card-reveal .card-title {
+    height: 60px;
+    margin-top: 60px;
+    padding-left: 30px;
+    }
+
+    .card .card-reveal .card-middle {
+    margin: 22px;
+    }
+
+    .card .card-reveal .card-end p {
+    height: 90px;
+    margin-top: 30px;
+    padding-left: 30px;
     }
 }
 
