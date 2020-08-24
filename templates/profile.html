@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
             <div class="card-panel">
-                <h1 class="center-align text-darken-4">
+                <h1 id="welcome" class="center-align text-darken-4">
                     {{ user.username }}'s Profile
                 </h1>
             </div>
@@ -17,6 +17,7 @@
 		<div class="card col s12 m3">
 			<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> </div>
 			<div class="card-content"><i class="material-icons right">more_vert</i><span class="card-title activator grey-text text-darken-4">{{recipe.recipe_name}}</span>
+                <p class="activator">{{recipe.category_name}}</p>
 				<p class="activator">{{recipe.cookbook_name}}</p>
 			</div>
             <!-- back of the card -->
