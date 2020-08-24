@@ -179,9 +179,12 @@ These 2 pages are styled in a similar way to form layout
 - <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
-- <a href="https://www.diffchecker.com/">Diffchecker</a>
-- <a href="https://balsamiq.com/">Balsamiq</a>
-- <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a>
+- For testing:
+    - <a href="https://www.reverso.net/spell-checker/english-spelling-grammar/">Spelling and Grammar checker</a>
+    - <a href="https://www.grammarly.com/">Spelling and Grammar checker</a>
+    - <a href="https://www.diffchecker.com/">Diffchecker</a>
+- <a href="https://balsamiq.com/">Balsamiq</a> Where I made my Wireframes.
+- <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a> Where I beautifyed my code.
 - <a href="https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery">Add and Remove input fields</a>
 
 
