@@ -29,7 +29,10 @@
 					</div>
 				</div>
                 <div class="card-end col s12">
-                    <p>{{recipe.recipe_description}}</p> <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a> 
+                    <p>{{recipe.recipe_description}}</p> 
+                </div>
+                <div class="card-end col s12 center-align">
+                    <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a> 
                 </div>
 			</div>
 		</div> {% endfor %}

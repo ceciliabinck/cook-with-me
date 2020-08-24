@@ -23,7 +23,7 @@
 			</div>
             <!-- back of the card -->
 			<div class="card-reveal">
-            <div class="row col s12"><h5 class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</h5>
+            <div class="row col s12"><h3 class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</h3>
             </div>
 				<div class="row col s12 card-middle">
 					<div class="col s4"> <i class="material-icons prefix">query_builder</i>
@@ -41,6 +41,8 @@
 				</div>
                 <div class="card-end col s12">
                     <p>{{recipe.recipe_description}}</p>
+                </div>
+                <div class="card-end center-align col s12">
                     <a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small light-green">Edit</a><a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small red accent-4">Remove</a>
                 </div>
 			</div>
