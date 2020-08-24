@@ -164,11 +164,21 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
+}
+
+.page-footer {
+    padding-top: 0;
+}
+
+.page-footer p {
+    margin-bottom: 10px;
+}
+
+  
 /* media query */
 
 @media only screen and (max-width: 992px) {
