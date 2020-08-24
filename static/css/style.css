@@ -33,6 +33,7 @@ body{
 
 .container .row .col img {
     width: 100%;
+    padding-top: 10px;
 }
 
 
@@ -75,11 +76,24 @@ hr {
     font-size: 17px;
 }
 
+.card .card-content {
+    padding: 10px;
+}
+
+.card .card-content p {
+    margin: 8px 0;
+}
+
 .card .card-content .card-title {
-    height: 130px;
+    height: 100px;
 }
 
 /* back side */
+
+.card .card-reveal {
+    padding: 10px;
+    padding-top: 30px;
+}
 
 .card .card-reveal .card-title {
     height: 100px;
@@ -120,8 +134,12 @@ img .card-img {
 
 .top-left {
     padding-left: 35px;
-    font-size: 23px;
+    font-size: 20px;
 }
+.top-left p {
+    margin: 15px 0;
+}
+
 .top-right {
     margin-top: 60px;
 }
