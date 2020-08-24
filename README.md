@@ -129,6 +129,10 @@ I styled the recipes in card panel that has an reveal. So that the user just can
 
 The back of the reveal card is styled is a bit busier as I had to add a bit more information to it. I devided the card in to 3 sections to make it easier to read. In the first section I put the name of the recipe again so an user knows which recipe card it has turned. The second section tells the user more information about times and servings of the recipe. In the last section the user can find a description of the dish with a button to open the hole recipe.
 
+
+### login and register
+
+These 2 pages are styled in a similar way to form layout 
 # Features
 
 - [x] Navbar
@@ -168,7 +172,7 @@ The back of the reveal card is styled is a bit busier as I had to add a bit more
     - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
     - <a href="https://github.com/tchapi/markdown-cheatsheet">Markdown cheatsheet</a>
     - <a href="http://ami.responsivedesign.is/#">See your site responsive</A>
-- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a>Where the recipes are from
+- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
 - <a href="https://www.diffchecker.com/">Diffchecker</a>
@@ -179,7 +183,7 @@ The back of the reveal card is styled is a bit busier as I had to add a bit more
 
 # Bugs
 
-## resulved Bugs
+## Resulved Bugs
 
 - Bug 1
 **Problem**: Profile page doesn't load, it gives an NoneType error
