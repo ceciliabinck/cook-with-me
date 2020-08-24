@@ -129,8 +129,9 @@ I styled the recipes in card panel that has an reveal. So that the user just can
 
 The back of the reveal card is styled a bit busier as I had to add a bit more information to it. I devided the card in to 3 sections to make it easier to read. In the first section I put the name of the recipe again so an user knows which recipe card it has turned around. The second section tells the user more information about times and servings of the recipe. In the last section the user can find a description of the dish with a button to open the hole recipe.
 
-
 ### login and register
+
+
 
 These 2 pages are styled in a similar way to form layout 
 # Features
@@ -207,7 +208,7 @@ These 2 pages are styled in a similar way to form layout
 
 - bug 6
 **Problem**: The welcome flash text does not display the username
-**Solution**:
+**Solution**: With help of a tutor I found out that was down to a syntax error. I wrote a comma(,) instead it had to be a point(.). 
 
 # Testing
 
