@@ -119,15 +119,15 @@ The navbar is vertical on top of the screen. The navbar on large screen is fully
 
 ### home
 
-The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section of the navbar is short h5 of what the idea is of the website.
+The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section has a h5 and it tells the user what the idea is of the website.
 
 In the About section is an explination about the idea about this website. The text in the home page is the **default black**. It gives some quite in the colourful page. I added a white box around the about section as this will make it easier to read for users.
 
 ### Recipes
 
-I styled the recipes in card panel that has an reveal. So that the user just can the title, image and cookbook name on first glance at the card. The background color of the cards is white. The background color together with the simplistic look af the front of the card should give the user a calming effect even though the very bright and loud background color.
+I styled the recipes in card panel that has an reveal. So that the user just can the title, image and cookbook name on first glance at the card. The background color of the cards is white. The background color of the card together with the simplistic look of the front of the card should give the user a calming effect even though the very bright and loud background color of the page.
 
-The back of the reveal card is styled is a bit busier as I had to add a bit more information to it. I devided the card in to 3 sections to make it easier to read. In the first section I put the name of the recipe again so an user knows which recipe card it has turned. The second section tells the user more information about times and servings of the recipe. In the last section the user can find a description of the dish with a button to open the hole recipe.
+The back of the reveal card is styled a bit busier as I had to add a bit more information to it. I devided the card in to 3 sections to make it easier to read. In the first section I put the name of the recipe again so an user knows which recipe card it has turned around. The second section tells the user more information about times and servings of the recipe. In the last section the user can find a description of the dish with a button to open the hole recipe.
 
 
 ### login and register
