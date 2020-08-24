@@ -120,16 +120,15 @@ hr {
     margin-bottom: 10px;
 }
 
-/* recipe  */
+/* recipe page  */
 
  #ingredient,
 #methods {
     white-space: pre-wrap; 
 } 
 
-img .card-img {
-    width: 80%;
-    margin-left: 25px;
+.card-img {
+    margin-top: -5px;
 }
 
 .top-left {
