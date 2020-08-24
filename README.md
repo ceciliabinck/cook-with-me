@@ -173,6 +173,9 @@ These 2 pages are styled in a similar way to form layout
     - <a href="https://github.com/ceciliabinck/binck-explores">My previous project</a>
     - <a href="https://github.com/tchapi/markdown-cheatsheet">Markdown cheatsheet</a>
     - <a href="http://ami.responsivedesign.is/#">See your site responsive</A>
+- For creating my profile page:
+    - <a href="https://www.w3schools.com/cssref/pr_text_text-transform.asp">Text-transform</a>To capitalize the first letter of the username
+    - <a href="https://www.w3schools.com/cssref/sel_firstletter.asp">First-letter selector</a> To capitalize the first letter of the username
 - <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
