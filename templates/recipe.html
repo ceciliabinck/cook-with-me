@@ -23,18 +23,18 @@
     <div class="row">
     <!-- white middle rows -->
         <div class="col middle-left s12 m6">
-        <p>Ingredients</p>
-        <p id="ingredient" class="white-space: pre-wrap">{{recipe.ingredients}}</p>
+        <h4 class="center-align">Ingredients</h4>
+        <ul id="ingredient" class="white-space: pre-wrap">{{recipe.ingredients}}</ul>
         </div>
         <div class="col middle-right s12 m6">
-        <p>Method</p>
-        <p id="methods" class="white-space: pre-wrap">{{recipe.method}}</p>
+        <h4 class="center-align">Method</h4>
+        <li id="methods" class="white-space: pre-wrap">{{recipe.method}}</li>
         </div>
     </div>
     <div class="row">
         <div class="bottom col s12">
-        <p>Vegetarian:  {{recipe.vegetarian}}</p>
-        <p>Tips: {{recipe.tips}}</p>
+        <h4>Tips</h4><p>{{recipe.tips}}</p>
+        <h4>Vegetarian</h4><p>{{recipe.vegetarian}}</p>
         </div>
     </div>
     <div class="row orange">
