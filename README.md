@@ -185,37 +185,6 @@ These 2 pages are styled in a similar way to form layout
 - <a href="https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery">Add and Remove input fields</a>
 
 
-# Bugs
-
-## Resolved Bugs
-
-- Bug 1
-**Problem**: Profile page doesn't load, it gives a NoneType error
-**Solution**: I gave my parameter and var the same name and that turned out to give the error. After correcting this my profile was shown but instead of the username, it was displaying the password. Turns out that I made a mistake in my login route. After checking the password it should match up the correct username but instead of a username, I wrote password. When I corrected this mistake the profile page showed the correct username.
-
-- Bug 2
-**Problem**: MongoDb is not inserting the name of the cookbook, it inserted null.
-**Solution**: The name in the registration form and in the insert route was not the same. So when I made them match the correct name of the cookbook was inserted in MongoDB.
-
-- Bug 3
-**Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
-**Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
-
-- Bug 4
-**Problem**: In the user Profile page I want to put all the recipes that, that user has inserted. But it is giving me this error: TypeError: 'Collection' object is not callable. If you meant to call the 'find_all' method on a 'Collection' object it is failing because no such method exists.
-**Solution**: Turnes out I did two things wrong in the code in my app.py. first of all, I did not give my search to the different recipes a variable. Secondly, I used the wrong variable in my return statement. In the code, in the profile.html I misunderstood how the for loop works. After changing all these things my data was presented on the profile.
-
-- Bug 5
-**Problem**: After clicking on the open recipe button on a recipe card. It would not present the whole recipe.
-**Solution**: I used the same code to set up my recipe card as on the recipes page. I was told on Slack that it doesn't have to be in a for loop as I only need one. So after changing that the different recipes got presented.
-
-- bug 6
-**Problem**: The welcome flash text does not display the username
-**Solution**: With the help of a tutor I found out that was down to a syntax error. I wrote a comma(,) instead it had to be a point(.). 
-
-- bug 7
-**Problem**: The welcome flash text does not display the username
-**Solution**:
 
 # Testing
 
@@ -246,6 +215,41 @@ I asked some of my friends and family members to test my project. So would get s
     **Solution**: I added on the top of the pictures the same amount of padding as the sides/bottom had to make to picture look more in balance.
     - **Issue 2**: The user thinks that the website could benefit from having a footer.
     **Solution**: As I don't have any contact to make a proper footer. I used the footer to show the following text: © 2020 Copyright Cook with me | For educational purpose.
+
+# Bugs in development
+
+## Resolved Bugs
+
+- Bug 1
+**Problem**: Profile page doesn't load, it gives a NoneType error
+**Solution**: I gave my parameter and var the same name and that turned out to give the error. After correcting this my profile was shown but instead of the username, it was displaying the password. Turns out that I made a mistake in my login route. After checking the password it should match up the correct username but instead of a username, I wrote password. When I corrected this mistake the profile page showed the correct username.
+
+- Bug 2
+**Problem**: MongoDb is not inserting the name of the cookbook, it inserted null.
+**Solution**: The name in the registration form and in the insert route was not the same. So when I made them match the correct name of the cookbook was inserted in MongoDB.
+
+- Bug 3
+**Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
+**Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
+
+- Bug 4
+**Problem**: In the user Profile page I want to put all the recipes that, that user has inserted. But it is giving me this error: TypeError: 'Collection' object is not callable. If you meant to call the 'find_all' method on a 'Collection' object it is failing because no such method exists.
+**Solution**: Turnes out I did two things wrong in the code in my app.py. first of all, I did not give my search to the different recipes a variable. Secondly, I used the wrong variable in my return statement. In the code, in the profile.html I misunderstood how the for loop works. After changing all these things my data was presented on the profile.
+
+- Bug 5
+**Problem**: After clicking on the open recipe button on a recipe card. It would not present the whole recipe.
+**Solution**: I used the same code to set up my recipe card as on the recipes page. I was told on Slack that it doesn't have to be in a for loop as I only need one. So after changing that the different recipes got presented.
+
+- bug 6
+**Problem**: The welcome flash text does not display the username
+**Solution**: With the help of a tutor I found out that was down to a syntax error. I wrote a comma(,) instead it had to be a point(.). 
+
+## Remaining bugs
+
+- bug 7
+**Problem**: When a user tries to use an iPhone they can not log in or register on the page.
+**Solution**:
+
 
 # Deployment :rocket:
 
