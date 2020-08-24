@@ -213,17 +213,39 @@ These 2 pages are styled in a similar way to form layout
 **Problem**: The welcome flash text does not display the username
 **Solution**: With the help of a tutor I found out that was down to a syntax error. I wrote a comma(,) instead it had to be a point(.). 
 
+- bug 7
+**Problem**: The welcome flash text does not display the username
+**Solution**:
+
 # Testing
 
-## Testing by friends and family
+## Testing by others
 
 I asked some of my friends and family members to test my project. So would get some idea's of what I needed to fix or they would see something I didn't even think about. 
 
-Test user 1: 
-- **Issue 1**: The text of the "About" section is a bit too long, and it conflicts with the simple feel the rest of the website tries to give.
-**Solution**: I shorted the "About" text and put it in a white card to make it look similar to the rest of the page.
-- **Issue 2**: Cookbook field is too short, doesn't fit the simple I-can't-cook public.
-**Solution**: I removed the length restriction on the cookbook name field.
+- Test user 1: 
+    - **Issue 1**: The text of the "About" section is a bit too long, and it conflicts with the simple feel the rest of the website tries to give.
+    **Solution**: I shorted the "About" text and put it in a white card to make it look similar to the rest of the page.
+    - **Issue 2**: Cookbook field is too short, doesn't fit the simple I-can't-cook public.
+    **Solution**: I removed the length restriction on the cookbook name field.
+    - **Issue 3**: The user uses an iPhone to test the website. On the iPhone, the user can not register nor login to the site.
+    **Solution**:
+
+- Test user 2:
+    - **Issue 1**: The user also uses an iPhone to test the website. On the iPhone, the user can not register nor login to the site.
+    **Solution**:
+
+- Test user 3:
+    - **Issue 1**: The "Cook with me" in the top left corner should probably have more padding on the left so it's not so close to the edge. 
+    **Solution**: I added a padding-left of 10px.
+    - **Issue 2**: The text on the website had a lot of typos and badly structured sentences.
+    **Solution**: I used the suggested spelling/grammar checker before realizing I have a Grammarly account. So the rest of the text on the website I checked using Grammarly
+
+- Test user 4:
+    - **Issue 1**: The pictures in the different recipe cards could use some top padding.
+    **Solution**: I added on the top of the pictures the same amount of padding as the sides/bottom had to make to picture look more in balance.
+    - **Issue 2**: The user thinks that the website could benefit from having a footer.
+    **Solution**: As I don't have any contact to make a proper footer. I used the footer to show the following text: © 2020 Copyright Cook with me | For educational purpose.
 
 # Deployment :rocket:
 
