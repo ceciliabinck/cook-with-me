@@ -289,3 +289,25 @@ main {
         margin-left: 0px;
     }
 }
+
+/* Large */
+
+@media only screen and (min-width: 993px){
+
+    /*recipe page*/
+
+    .top-right {
+        padding-left: 40px !important;
+    }
+
+    .top-left p {
+        margin: 5px 0;
+    }
+
+    .top-left {
+        font-size: 16px;
+        height: 230px;
+    }
+    
+
+}
