@@ -203,4 +203,26 @@ main {
     margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 0px){
 
+    /* recipes page */
+    .card .card-reveal {
+        padding-top: 50px;
+    }
+
+    .card .card-reveal .card-end p {
+        height: 70px;
+        margin: 30px 0;
+    }
+
+    .top-right {
+        margin-top: 0;
+        padding-left: 100px !important;
+    }
+
+    /*Manage categories*/
+
+    #categories .card {
+        margin-left: 80px;
+    }
+}
