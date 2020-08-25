@@ -115,7 +115,7 @@ At the beginning of this project, I was not sure if I wanted any icons beside th
 
 ## Styling
 
-The navbar is vertical on top of the screen. The navbar on a large screen is fully viewable. On smaller screens, it will present itself as a hamburger navbar whereas you click it the menu slides out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the colour **White**. I tried to give it the colour yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the colour **#ffff80**. As for these 2 colours, I choose them because they have a positive effect on your appetite. I choose to style the page titles all in H1 and centred on the page and use the **default black** for all the text. I have used two types of buttons, an edit button and an delete/cansel button. The edit buttons have a **light green** colour from Materialize. The delete/cancel button have a **red** colour also from Materialize. I styled the text on all the buttons in the same **white** colour as the navbar. To make it stand out better against the colour of the button.  
+The navbar is vertical on top of the screen. The navbar on a large screen is fully viewable. On smaller screens, it will present itself as a hamburger navbar whereas you click it the menu slides out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the colour **White**. I tried to give it the colour yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the colour **#ffff80**. As for these 2 colours, I choose them because they have a positive effect on your appetite. I choose to style the page titles all in H1 and centred on the page and use the **default black** for all the text. I have used two types of buttons, an edit button and a delete/cancel button. The edit buttons have a **light green** colour from Materialize. The delete/cancel button have a **red** colour also from Materialize. I styled the text on all the buttons in the same **white** colour as the navbar. To make it stand out better against the colour of the button.  
 
 ### Home
 
@@ -131,43 +131,43 @@ The back of the revealed card is styled a bit busier as I had to add a bit more 
 
 ### Login and Register
 
-These 2 pages are styled in the same way. I put the form in a white card to take the attention off the background colour of the website. Under the form I have put a link that leads to the other page, just in case a user made a mistake.
+These 2 pages are styled in the same way. I put the form in a white card to take the attention off the background colour of the website. Under the form, I have put a link that leads to the other page, just in case a user made a mistake.
 
-The log in page has three input fields with a understandable icon in front of it. Under the input fields there is a submit button, with a icon next to it. In front of the link I put a question, if they already have made a cookbook before. So when they get an error that there is no account with that username they can use the link the the register page. I made the background colour of the link is light green. This way it will stand out and it will try in with the submit button.
+The login page has three input fields with an understandable icon in front of it. Under the input fields, there is a submit button, with an icon next to it. In front of the link, I put a question, if they already have made a cookbook before. So when they get an error that there is no account with that username they can use the link to go to the register page. I made the background colour of the link is light green. This way it will stand out and it will try in with the submit button.
 
-The register page has four input fields. These are presented the same the same way as on the log in page. The question in front of the link to the log in page, Do you already have a cookbook?
+The register page has four input fields. These are presented the same way as on the log in page. The question in front of the link to the login page, Do you already have a cookbook?
 
 ## Profile
 
-On the profile page the page title is differetn then through out the rest of the page. The page header is situated in a white card and it will show the users username next to the words 's Profile. I am hoping it will make the profile page look more personal to the user.
+On the profile page, the page title is different than throughout the rest of the page. The page header is situated in a white card and it will show the users username next to the words username's Profile. I am hoping it will make the profile page look more personal to the user.
 
-Under the page title, the users input data will be shown in recipe cards. I have used tha same styling for these cards as in the recipes page. Instead of the open button the user will see on the left a button to edit the recipe and on the right a button that will delete the recipe.
+Under the page title, the user's input data will be shown in recipe cards. I have used the same styling for these cards as in the recipes page. Instead of the open button, the user will see on the left a button to edit the recipe and on the right a button that will delete the recipe.
 
 ## Add and Edit recipe
 
-I have put these pages together because they are copies from each other. The form, again in a white card to distract from the background of the website. The form has different input fields like textarea, select, switch and input fields. At the bottom of the form there is a submit button. Sadly I have not been able to give the switch the same green colour as the submit buttom, when turned on. So it is still in it's green/blue default colour.
+I have put these pages together because they are copies from each other. The form, again in a white card to distract from the background of the website. The form has different input fields like textarea, select, switch and input fields. At the bottom of the form, there is a submit button. Sadly I have not been able to give the switch the same green colour as the submit button when turned on. So it is still in it's green/blue default colour.
 
-The only difference between the two pages is that in the edit page the input field are already filled in with the inserted data. On the right side of the submite button there is a cancel button. This button will take the user back to there profile page.
+The only difference between the two pages is that in the edit page the input field is already filled in with the inserted data. On the right side of the submit button, there is a cancel button. This button will take the user back to there profile page.
 
 ## Recipe
 
-I used a white card too present the card in. I devided the card in three sections. In the first section you can find all the information that was on the recipe card on the recipes page. I gave the background of this section an orange colour to make it more Visible that there are different sections on the card.
+I used a white card to present the card in. I divided the card into three sections. In the first section, you can find all the information that was on the recipe card on the recipes page. I gave the background of this section an orange colour to make it more visible that there are different sections on the card.
 
-In the second section I put all the new information. I devided this section up into three rows and I kept the background white. The first row the user can find the ingredients and the method they will have to folow to make this list. In the second and thirt row the user can find Tips and if the disch is vegitarian. I put all the titles in a h4, to make them stand out from all the other text.
+In the second section, I put all the new information. I divided this section up into three rows and I kept the background white. The first row the user can find the ingredients and the method they will have to follow to make this list. In the second and third-row, the user can find Tips and if the dish is vegetarian. I put all the titles in an h4, to make them stand out from all the other text.
 
-In the last section I have put a link that will take the user back to the recipes page. The background colour of this section is also orange. I did this with the the same reason as in the first section. 
+In the last section, I have put a link that will take the user back to the recipes page. The background colour of this section is also orange. I did this with the same reason as in the first section. 
 
 ## Manage Categories
 
-The first thing on the manage categories page is an orange button and it has an icon next to it. With this button the user can add an new category. 
+The first thing on the manage categories page is an orange button and it has an icon next to it. With this button, the user can add a new category. 
 
-Under this button are the category cards, where the user can see which categories are already made. The cards match with the rest of the theme of the website as they are white with black text on them. On the card the user can also find two buttons. The first button is light green, which the user can use to edit a category. On the right of this button is a red delete button. Where the user can delete the catrgory.
+Under this button are the category cards, where the user can see which categories are already made. The cards match with the rest of the theme of the website as they are white with black text on them. On the card, the user can also find two buttons. The first button is light green, which the user can use to edit a category. On the right of this button is a red delete button. Where the user can delete the category.
 
 ## Add and Edit Categories
 
-I also put these twee pages together again because they are a copy from each other. On the page there is a white card with one input field where you can put in a category name. Under the input field there is a light green submit button with an icon next to it. 
+I also put these twee pages together again because they are a copy from each other. On the page, there is a white card with one input field where you can put in a category name. Under the input field, there is a light green submit button with an icon next to it. 
 
-On the the edit category page there is a red cancel button on the right of the green submite button. This button will take the user back to the manage categories page. 
+On the edit category page, there is a red cancel button on the right of the green submit button. This button will take the user back to the manage categories page. 
 
 # Features
 
@@ -260,6 +260,21 @@ I asked some of my friends and family members to test my project. So would get s
     **Solution**: I changed the title in the header from Document to Cook with me.
     - **Issue 2**: Make use of some more headings to make more important elements to stand out.
     **Solution**: I played around with putting headers in different parts of the cards. I ended up putting the card titles in a h5 and on the recipe.html I put the middle section in H4 to make it look more important.
+
+
+# Bugs in development
+
+## Resolved Bugs
+
+- Bug 1
+**Problem**: Profile page doesn't load, it gives a NoneType error
+**Solution**: I gave my parameter and var the same name and that turned out to give the error. After correcting this my profile was shown but instead of the username, it was displaying the password. Turns out that I made a mistake in my login route. After checking the password it should match up the correct username but instead of a username, I wrote password. When I corrected this mistake the profile page showed the correct username.
+
+- Bug 2
+**Problem**: MongoDb is not inserting the name of the cookbook, it inserted null.
+**Solution**: The name in the registration form and in the insert route was not the same. So when I made them match the correct name of the cookbook was inserted in MongoDB.
+
+- Bug 3
 **Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
 **Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
 
