@@ -213,7 +213,6 @@ On the edit category page, there is a red cancel button on the right of the gree
 - For creating my profile page:
     - <a href="https://www.w3schools.com/cssref/pr_text_text-transform.asp">Text-transform</a>To capitalize the first letter of the username
     - <a href="https://www.w3schools.com/cssref/sel_firstletter.asp">First-letter selector</a> To capitalize the first letter of the username
-- <a href="https://www.jamieoliver.com/recipes/">Jamie Oliver</a> Where the recipes are from
 - <a href="https://www.mongodb.com/">The database I used</a>
 - <a href="https://jquery.com/">Jquery</a>
 - For testing:
