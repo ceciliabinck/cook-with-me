@@ -253,7 +253,13 @@ I asked some of my friends and family members to test my project. So would get s
     - **Issue 1**: The pictures in the different recipe cards could use some top padding.
     **Solution**: I added on the top of the pictures the same amount of padding as the sides/bottom had to make to picture look more in balance.
     - **Issue 2**: The user thinks that the website could benefit from having a footer.
-    **Solution**: As I don't have any contact to make a proper footer. I used the footer to show the following text: © 2020 Copyright Cook with me | For educational purpose.- Bug 3
+    **Solution**: As I don't have any contact to make a proper footer. I used the footer to show the following text: © 2020 Copyright Cook with me | For educational purpose.
+
+- Test User 5:
+    - **Issue 1**: The title of the website shows document.
+    **Solution**: I changed the title in the header from Document to Cook with me.
+    - **Issue 2**: Make use of some more headings to make more important elements to stand out.
+    **Solution**: I played around with putting headers in different parts of the cards. I ended up putting the card titles in a h5 and on the recipe.html I put the middle section in H4 to make it look more important.
 **Problem**: Second select field doesn't show in edit_recipe- or add_recipe.html.
 **Solution**: I reused the code of my first select field but I did it t get_recipes- instead of add_recipes route. Correcting this made the second select field only work at the add_recipe.html. Ather writing this made me look at the edit_recipe route and saw I had to copy the code here too and this made it work on the edit_recipe.html as well.
 
