@@ -23,7 +23,7 @@
 			</div>
             <!-- back of the card -->
 			<div class="card-reveal">
-            <div class="row col s12"><h3 class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</h3>
+            <div class="row col s12"><h5 class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>{{recipe.recipe_name}}</h5>
             </div>
 				<div class="row col s12 card-middle">
 					<div class="col s4"> <i class="material-icons prefix">query_builder</i>
@@ -49,21 +49,3 @@
 		</div> {% endfor %}
     
 {% endblock %}
-
-
-                     -->
-
-<!-- So here I want the have the users recipes.
-    I am hoping to get those by using the cookbook_name.
-    mongoDb stores that when register.
-    All the recipes have cookbook_name included.
-    And there put the edit and delete options. -->
-
-<!--
-      
-        <a href="{{url_for('get_open_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light open btn btn_small light-green">Open Recipe</a>
-    </div>
-    <div class="col s12 m4">
-      <img src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}">
-    </div>
-  </div>-->
