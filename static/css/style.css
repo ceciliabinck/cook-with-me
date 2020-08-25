@@ -142,7 +142,12 @@ hr {
 }
 
 .top-right {
-    margin-top: 60px;
+    margin-top: 50px;
+    padding-left: 30px !important;
+}
+
+.top-right .material-icons {
+    margin-right: 10px;
 }
 
 .middle-left,
@@ -163,6 +168,16 @@ hr {
 
 #welcome::first-letter{
     text-transform: capitalize;
+}
+
+/* category page */
+
+#categories .card {
+    width: 190px
+}
+
+#categories .card-title {
+    height: 20px;
 }
 
 /* footer */

@@ -13,11 +13,11 @@
         <div class="col s12 m4">
 	        <img class="card-img" src="{{recipe.recipe_image}}" alt="{{recipe.recipe_name}}"> 
         </div>
-        <div class="col s12 m4 center-align top-right">
-            <p>Prep Time: {{recipe.prep_time}}</p>
-            <p>Cook Time: {{recipe.cook_time}}</p>
-            <p>Total Time: {{recipe.total_time}}</p>
-            <p>Serves: {{recipe.serves}}</p>
+        <div class="col s12 m4 top-right">
+            <p><i class="material-icons prefix">query_builder</i>Prep Time: {{recipe.prep_time}}</p>
+            <p><i class="material-icons prefix">hourglass_empty</i>Cook Time: {{recipe.cook_time}}</p>
+            <p><i class="material-icons prefix">hourglass_full</i>Total Time: {{recipe.total_time}}</p>
+            <p><i class="material-icons prefix">restaurant</i>Serves: {{recipe.serves}}</p>
         </div>
     </div>
     <div class="row">
