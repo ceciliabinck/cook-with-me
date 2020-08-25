@@ -1,147 +1,120 @@
 {% extends 'base.html' %} {% block content %}
 <h1 class="center">Edit Recipe</h1>
-
 <div class="container">
-    <div class="row card-panel">
-    <form action="{{ url_for('update_recipe', recipe_id=recipe._id) }}" method="POST" class="col s12">
-        <!-- recipe name -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="recipe_name" name="recipe_name" type="text" class="validate" value="{{recipe.recipe_name}}" required />
-            <label>Recipe Name</label>
-        </div>
-        </div>
-        <!-- recipe description -->
-        <div class="row">
-        <div class="input-field col s12">
-            <textarea id="recipe_description" name="recipe_description" class="validate materialize-textarea" maxlength="100" required>{{recipe.recipe_description}}</textarea>
-            <label>Recipe Description</label>
-        </div>
-        </div>
-        <!-- cookbook name -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="cookbook_name" name="cookbook_name" type="text" class="validate" value="{{recipe.cookbook_name}}" required />
-            <label>Cookbook Name</label>
-        </div>
-        </div>
-        <!-- image  -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="recipe_image" name="recipe_image" type="text" class="validate" value="{{recipe.recipe_image}}" required />
-            <label>Recipe Image</label>
-        </div>
-        </div>
-        <!-- category -->
-        <div class="row">
-        <div class="input-field col s12">
-       <select id="category" name="category_name">
-                <option value="" disabled>Choose Category</option>
-                {% for cat in categories %}
-                    {% if cat.category_name == recipe.category_name %}
-                <option value="{{cat.category_name}}" selected> {{cat.category_name}}</option>
-                    {% else %}
-                    <option value="{{cat.category_name}}"> {{cat.category_name}}</option>
-                    {% endif %}
-                {% endfor %}
-            </select>
-        <label>Category Name</label>
-        </div>
-        </div>
-        <!--  difficulty level -->
-          <div class="row">
-        <div class="input-field col s12">
-            <select id="difficulty" name="difficulty">
-            <option value="" disabled>Choose Difficulty</option>
-            {% for diff in difficulty %}
-                {% if diff.difficulty == recipe.difficulty %}
-                    <option value="{{ diff.difficulty }}" selected> {{ diff.difficulty }}</option>
-                {% else %}
-                    <option value="{{ diff.difficulty }}"> {{ diff.difficulty }}</option>
-                {% endif %}
-            {% endfor %}
-            </select>
-            <label>Difficulty Level</label>
-        </div>
-        </div>
-        <!-- prep -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="prep_time" name="prep_time" type="text" class="validate" value="{{recipe.prep_time}}" />
-            <label>Prep Time in minutes</label>
-        </div>
-        </div>
-        <!-- cooking -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="cook_time" name="cook_time" type="text" class="validate" value="{{recipe.cook_time}}" required />
-            <label>Cooking Time in minutes</label>
-        </div>
-        </div>
-        <!-- prep + cook time -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="total_time" name="total_time" type="text" class="validate" value="{{recipe.total_time}}" required />
-            <label>Total Time in minutes</label>
-        </div>
-        </div>
-        <!-- how many people can eat from this recipe -->
-        <div class="row">
-        <div class="input-field col s12">
-            <input id="serves" name="serves" type="text" class="validate" value="{{recipe.serves}}" required />
-            <label>Serves</label>
-        </div>
-        </div>
-        <!-- put in ingredients -->
-        <div class="row">
-        <div class="input-field col s12">
-            <textarea id="ingredients" name="ingredients" class="validate materialize-textarea">{{recipe.ingredients}}</textarea>
-            <label>Ingredients</label>
-        </div>
-        </div>
-        <!-- put in method -->
-        <div class="row">
-        <div class="input-field col s12">
-            <textarea id="method" name="method" class="validate materialize-textarea">{{recipe.method}}</textarea>
-            <label>Method</label>
-        </div>
-        </div>
-        <!-- giving tips -->
-        <div class="row">
-        <div class="input-field col s12">
-            <textarea id="tips" name="tips" class="validate materialize-textarea">{{recipe.tips}}</textarea>
-            <label>Tips</label>
-        </div>
-        </div>
-        <div class="row">
-        <!-- Switch -->
-        <div class="switch">
-            <p>Vegetarian</p>
-            <label>
-            No
-            {% if recipe.vegetarian %}
-            <input id="vegetarian" name="vegetarian" type="checkbox" checked />
-            {% else %}
-            <input id="vegetarian" name="vegetarian" type="checkbox" />
-            {% endif %}
-            <span class="lever"></span>
-            Yes
-            </label>
-        </div>
-        </div>
-        <!-- button -->
-        <div class="row">
-        <button class="btn waves-effect waves-light light green" type="submit" name="action">
-            Edit Recipe
-            <i class="material-icons right">playlist_add</i>
-        </button>
-        <a href="{{ url_for('profile', username=session['user']) }}" class="btn red text-shadow">
+	<div class="row card-panel">
+		<form action="{{ url_for('update_recipe', recipe_id=recipe._id) }}" method="POST" class="col s12">
+			<!-- recipe name -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="recipe_name" name="recipe_name" type="text" class="validate" value="{{recipe.recipe_name}}" required />
+					<label>Recipe Name</label>
+				</div>
+			</div>
+			<!-- recipe description -->
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea id="recipe_description" name="recipe_description" class="validate materialize-textarea" maxlength="100" required>{{recipe.recipe_description}}</textarea>
+					<label>Recipe Description</label>
+				</div>
+			</div>
+			<!-- cookbook name -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="cookbook_name" name="cookbook_name" type="text" class="validate" value="{{recipe.cookbook_name}}" required />
+					<label>Cookbook Name</label>
+				</div>
+			</div>
+			<!-- image  -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="recipe_image" name="recipe_image" type="text" class="validate" value="{{recipe.recipe_image}}" required />
+					<label>Recipe Image</label>
+				</div>
+			</div>
+			<!-- category -->
+			<div class="row">
+				<div class="input-field col s12">
+					<select id="category" name="category_name">
+						<option value="" disabled>Choose Category</option> {% for cat in categories %} {% if cat.category_name == recipe.category_name %}
+						<option value="{{cat.category_name}}" selected> {{cat.category_name}}</option> {% else %}
+						<option value="{{cat.category_name}}"> {{cat.category_name}}</option> {% endif %} {% endfor %} </select>
+					<label>Category Name</label>
+				</div>
+			</div>
+			<!--  difficulty level -->
+			<div class="row">
+				<div class="input-field col s12">
+					<select id="difficulty" name="difficulty">
+						<option value="" disabled>Choose Difficulty</option> {% for diff in difficulty %} {% if diff.difficulty == recipe.difficulty %}
+						<option value="{{ diff.difficulty }}" selected> {{ diff.difficulty }}</option> {% else %}
+						<option value="{{ diff.difficulty }}"> {{ diff.difficulty }}</option> {% endif %} {% endfor %} </select>
+					<label>Difficulty Level</label>
+				</div>
+			</div>
+			<!-- prep -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="prep_time" name="prep_time" type="text" class="validate" value="{{recipe.prep_time}}" />
+					<label>Prep Time in minutes</label>
+				</div>
+			</div>
+			<!-- cooking -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="cook_time" name="cook_time" type="text" class="validate" value="{{recipe.cook_time}}" required />
+					<label>Cooking Time in minutes</label>
+				</div>
+			</div>
+			<!-- prep + cook time -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="total_time" name="total_time" type="text" class="validate" value="{{recipe.total_time}}" required />
+					<label>Total Time in minutes</label>
+				</div>
+			</div>
+			<!-- how many people can eat from this recipe -->
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="serves" name="serves" type="text" class="validate" value="{{recipe.serves}}" required />
+					<label>Serves</label>
+				</div>
+			</div>
+			<!-- put in ingredients -->
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea id="ingredients" name="ingredients" class="validate materialize-textarea">{{recipe.ingredients}}</textarea>
+					<label>Ingredients</label>
+				</div>
+			</div>
+			<!-- put in method -->
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea id="method" name="method" class="validate materialize-textarea">{{recipe.method}}</textarea>
+					<label>Method</label>
+				</div>
+			</div>
+			<!-- giving tips -->
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea id="tips" name="tips" class="validate materialize-textarea">{{recipe.tips}}</textarea>
+					<label>Tips</label>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Switch -->
+				<div class="switch">
+					<p>Vegetarian</p>
+					<label> No {% if recipe.vegetarian %}
+						<input id="vegetarian" name="vegetarian" type="checkbox" checked /> {% else %}
+						<input id="vegetarian" name="vegetarian" type="checkbox" /> {% endif %} <span class="lever"></span> Yes </label>
+				</div>
+			</div>
+			<!-- button -->
+			<div class="row">
+				<button class="btn waves-effect waves-light light green" type="submit" name="action"> Edit Recipe <i class="material-icons right">playlist_add</i> </button> <a href="{{ url_for('profile', username=session['user']) }}" class="btn red text-shadow">
             Cancel <i class="material-icons right">cancel</i>
-        </a>
-        </div>
-    </form>
-    </div>
+        </a> </div>
+		</form>
+	</div>
 </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-{% endblock %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> {% endblock %}
