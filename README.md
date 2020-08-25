@@ -217,6 +217,8 @@ On the edit category page, there is a red cancel button on the right of the gree
 - For testing:
     - <a href="https://www.reverso.net/spell-checker/english-spelling-grammar/">Spelling and Grammar checker</a>
     - <a href="https://www.grammarly.com/">Spelling and Grammar checker</a>
+    - <a href="https://validator.w3.org/#validate_by_input">HTML Validator</a>
+    - <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validator</a>
     - <a href="https://www.diffchecker.com/">Diffchecker</a>
 - <a href="https://www.geeksforgeeks.org/how-to-apply-important-in-css/">The correct way to use important in css</a>
 - <a href="https://balsamiq.com/">Balsamiq</a> Where I made my Wireframes.
@@ -261,6 +263,43 @@ I asked some of my friends and family members to test my project. So would get s
     - **Issue 2**: Make use of some more headings to make more important elements to stand out.
     **Solution**: I played around with putting headers in different parts of the cards. I ended up putting the card titles in a h5 and on the recipe.html I put the middle section in H4 to make it look more important.
 
+## Testing with Tools
+
+Having other people check your progress is useful. I have gotten very useful feedback from them but even I know that people can overlook things, I definitely do. So I decided to test the code that I have written in another way, with tools. I will put down the tools that I have used and what the outcome was when I tested my project with them.
+
+- Spelling and Grammar.
+    One of the people how tested my website suggested that I put all my texts through a spelling and grammar tool. I know this is one of my weaknesses. So I did not think I did not make any mistakes but I was not expecting to make this many mistakes. In my README.md at that time I found about 77 mistakes and in the About section, I made about 7 mistakes. That I have corrected with the help of the spelling and grammar tool. Knowing this will mean I have to keep checking my spelling and grammar.
+
+- Tools
+    - HTML validator
+        - add_category.html
+        This is the error I am getting: Error: Bad value {{ url_for('add_category') }} for attribute action on element form: Illegal character in path segment: { is not allowed.
+        This error has to do with the fact that I am using jinja code in html and it is not liking it.
+        - add_recipe.html
+        I have gotten errors for the for="icon_prefix" in the label tag and as I am not using any icons there I removed them. Al the other errors I am getting are to do with jinja code in the HTML.
+        - base.html
+        The first error is because I put too many - in my <!---->, So I corrected this. The other errors have to do with the jinja code in the HTML.
+        - categories.html
+        The only errors I get here have to do with the jinja code in the HTML.
+        - edit_category.html
+        The first error is because I put too many - in my <!---->, So I corrected this. The other errors have to do with the jinja code in the HTML.
+        - edit_recipe.html
+        I have gotten errors for the for="icon_prefix" in the label tag and as I am not using any icons there I removed them. I also have errors that have to do with jinja code in the HTML. The last code I got has to do with the fact that I have two input fields in the label tag at my switch. The reason I have two input fields here has to do with the fact that I have prefilled the edit_recipe. So users can easily what they need to edit in the recipe
+        - home.html
+        I got two types of errors here, firstly I get the error that I have used two h1 as a top-level heading. This is because I put twee pages in one. So I have the Welcome message in h1 for the intro for this project. Under that, I put the about for this project and there I have also used an h1. Secondly, the other errors have to do with the jinja code in HTML.
+        - login.html
+        Also here the first error I get is because I put too many - in my <!---->, So I corrected this. The second error came because I made a typo at the submit button, I wrote submite but I corrected this. The other errors have to do with the jinja code in the HTML.
+        - Profile.html
+        The first error I got was telling me I forgot to close one of my div's, so I corrected that. The other errors came from the jinja code in the HTML.
+        - recipe.html
+        The only errors I am getting here are from the jinja code in the HTML.
+        - recipes.html
+        The only errors I am getting here are from the jinja code in the HTML.
+        - register.html
+        I made a typo at the submit button, I wrote submite but I corrected this. The other errors are from the jinja code in the HTML.
+
+    - CSS validator
+        I put my CSS code through the CSS Validator to correct any mistakes or typo's I made. When I clicked check, it told me congratulations no mistakes where found.
 
 # Bugs in development
 
