@@ -301,6 +301,18 @@ Having other people check your progress is useful. I have gotten very useful fee
     - CSS validator
         I put my CSS code through the CSS Validator to correct any mistakes or typo's I made. When I clicked check, it told me congratulations no mistakes where found.
 
+## Test cases
+
+|Test Cases                                                                      |  Status      |
+|------------------------------------------------------------------------------- |------------- |
+|As a student, I would like to find some really easy recipes.                    |    Pass      |
+|As a traveller, I would like to store the recipes I learned in my cooking class.|    Pass      |
+|As a beginning cook, I want to see an image of a dish.                          |    Pass      |
+|As a student, I want to know the cooking time.                                  |    Pass      |
+|As I am always busy, I want the uploading process to be easy.                   |    Pass      |
+|As I am always on my phone, I want the website to work on my phone.             |    Pass *    |
+- * See remaining bug
+
 # Bugs in development
 
 ## Resolved Bugs
