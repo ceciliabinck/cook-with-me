@@ -379,3 +379,13 @@ Cloning Cook with me from GitHub:
 7. git clone https://github.com/ceciliabinck/(cook-with-me).git
 
 
+# Credits
+
+## Content & Media
+
+The recipes and their pictures, as well as the pictures in the carousel on the home page, are from the website <a href="https://www.allrecipes.com/">Allrecipes</a>. These are mostly recipes from users from that site. The about section I wrote myself. Other sources I have used in the making of this project I have added them to the tools & libraries section.
+
+## Acknowledgements
+I want to thank Tim Nelson, for sharing the new video lessons of the Data Centric Development module. As the used sources where more up to date. I also found they had more useful tips and his explanation of the material was a bit more clear.
+
+I also would like to thank the tutors from the code institute for all the help during the making of this project, as well of my mentor. Here by I want to thank all the people that helped me testing this project, I got some very good feedback from them.
