@@ -4,14 +4,14 @@
 <div class="container">
     <div class="row card-panel">
     <form action="{{ url_for('edit_category', category_id=category._id) }}" method="POST" class="col s12">
-        <!--- category name --->
+        <!-- category name -->
         <div class="row">
         <div class="input-field col s12">
             <input id="category_name" name="category_name" type="text" value="{{ category.category_name }}" minlength="3" maxlength="25" class="validate" required />
             <label for="category_name">Category Name</label>
         </div>
         </div>
-        <!--- buttons --->
+        <!-- buttons -->
         <div class="row">
         <div class="col-12">
         <button class="btn waves-effect waves-light light green" type="submit" name="action">
