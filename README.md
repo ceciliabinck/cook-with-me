@@ -218,6 +218,7 @@ On the the edit category page there is a red cancel button on the right of the g
     - <a href="https://www.reverso.net/spell-checker/english-spelling-grammar/">Spelling and Grammar checker</a>
     - <a href="https://www.grammarly.com/">Spelling and Grammar checker</a>
     - <a href="https://www.diffchecker.com/">Diffchecker</a>
+- <a href="https://www.geeksforgeeks.org/how-to-apply-important-in-css/">The correct way to use important in css</a>
 - <a href="https://balsamiq.com/">Balsamiq</a> Where I made my Wireframes.
 - <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a> Where I beautifyed my code.
 - <a href="https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery">Add and Remove input fields</a>
