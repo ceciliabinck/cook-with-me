@@ -115,9 +115,9 @@ At the beginning of this project, I was not sure if I wanted any icons beside th
 
 ## Styling
 
-The navbar is vertical on top of the screen. The navbar on a large screen is fully viewable. On smaller screens, it will present itself as a hamburger navbar whereas you click it the menu slides out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the colour **White**. I tried to give it the colour yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the colour **#ffff80**. As for these 2 colours, I choose them because they have a positive effect on your appetite. I choose to style the page titles all in H1 and centred on the page.
+The navbar is vertical on top of the screen. The navbar on a large screen is fully viewable. On smaller screens, it will present itself as a hamburger navbar whereas you click it the menu slides out. The Navbar is styled the color **#ff9800 orange** from Materialize. The text in the navbar is the colour **White**. I tried to give it the colour yellow, from Materialize, but that did not work. I have to say that I think it works the white text in the orange navbar. The text has some extra shadow so it will pop out of the orange navbar. The page has the colour **#ffff80**. As for these 2 colours, I choose them because they have a positive effect on your appetite. I choose to style the page titles all in H1 and centred on the page and use the **default black** for all the text. I have used two types of buttons, an edit button and a delete/cancel button. The edit buttons have a **light green** colour from Materialize. The delete/cancel button have a **red** colour also from Materialize. I styled the text on all the buttons in the same **white** colour as the navbar. To make it stand out better against the colour of the button.  
 
-### home
+### Home
 
 The Intro section on the home page consists of the text Welcome to and the name of the project. Under the welcome text, I have placed a carousel with some of the pictures of the dishes that you can find on the page. The last part of this intro section has an h5 and it tells the user what the idea is of the website.
 
@@ -127,12 +127,47 @@ In the About section is an explanation about the idea about this website. The te
 
 I styled the recipes in card panel that has a reveal. So that the user just can the title, image and cookbook name on first glance at the card. The background colour of the cards is white. The background colour of the card together with the simplistic look of the front of the card should give the user a calming effect even though the very bright and loud background colour of the page.
 
-The back of the revealed card is styled a bit busier as I had to add a bit more information to it. I decided the card into 3 sections to make it easier to read. In the first section, I put the name of the recipe again so a user knows which recipe card it has turned around. The second section tells the user more information about times and servings of the recipe. In the last section, the user can find a description of the dish with a button to open the hole recipe.
+The back of the revealed card is styled a bit busier as I had to add a bit more information to it. I decided the card into 3 sections to make it easier to read. In the first section, I put the name of the recipe again so a user knows which recipe card it has turned around. The second section tells the user more information about times and servings of the recipe. In the last section, the user can find a description of the dish. Under this description is a light green button, with a white text to open the hole recipe. 
 
-### login and register
+### Login and Register
 
-These 2 pages are styled in a similar way to form layout 
+These 2 pages are styled in the same way. I put the form in a white card to take the attention off the background colour of the website. Under the form, I have put a link that leads to the other page, just in case a user made a mistake.
 
+The login page has three input fields with an understandable icon in front of it. Under the input fields, there is a submit button, with an icon next to it. In front of the link, I put a question, if they already have made a cookbook before. So when they get an error that there is no account with that username they can use the link to go to the register page. I made the background colour of the link is light green. This way it will stand out and it will try in with the submit button.
+
+The register page has four input fields. These are presented the same way as on the log in page. The question in front of the link to the login page, Do you already have a cookbook?
+
+## Profile
+
+On the profile page, the page title is different than throughout the rest of the page. The page header is situated in a white card and it will show the users username next to the words username's Profile. I am hoping it will make the profile page look more personal to the user.
+
+Under the page title, the user's input data will be shown in recipe cards. I have used the same styling for these cards as in the recipes page. Instead of the open button, the user will see on the left a button to edit the recipe and on the right a button that will delete the recipe.
+
+## Add and Edit recipe
+
+I have put these pages together because they are copies from each other. The form, again in a white card to distract from the background of the website. The form has different input fields like textarea, select, switch and input fields. At the bottom of the form, there is a submit button. Sadly I have not been able to give the switch the same green colour as the submit button when turned on. So it is still in it's green/blue default colour.
+
+The only difference between the two pages is that in the edit page the input field is already filled in with the inserted data. On the right side of the submit button, there is a cancel button. This button will take the user back to there profile page.
+
+## Recipe
+
+I used a white card to present the card in. I divided the card into three sections. In the first section, you can find all the information that was on the recipe card on the recipes page. I gave the background of this section an orange colour to make it more visible that there are different sections on the card.
+
+In the second section, I put all the new information. I divided this section up into three rows and I kept the background white. The first row the user can find the ingredients and the method they will have to follow to make this list. In the second and third-row, the user can find Tips and if the dish is vegetarian. I put all the titles in an h4, to make them stand out from all the other text.
+
+In the last section, I have put a link that will take the user back to the recipes page. The background colour of this section is also orange. I did this with the same reason as in the first section. 
+
+## Manage Categories
+
+The first thing on the manage categories page is an orange button and it has an icon next to it. With this button, the user can add a new category. 
+
+Under this button are the category cards, where the user can see which categories are already made. The cards match with the rest of the theme of the website as they are white with black text on them. On the card, the user can also find two buttons. The first button is light green, which the user can use to edit a category. On the right of this button is a red delete button. Where the user can delete the category.
+
+## Add and Edit Categories
+
+I also put these twee pages together again because they are a copy from each other. On the page, there is a white card with one input field where you can put in a category name. Under the input field, there is a light green submit button with an icon next to it. 
+
+On the edit category page, there is a red cancel button on the right of the green submit button. This button will take the user back to the manage categories page. 
 
 # Features
 
@@ -183,6 +218,7 @@ These 2 pages are styled in a similar way to form layout
     - <a href="https://www.reverso.net/spell-checker/english-spelling-grammar/">Spelling and Grammar checker</a>
     - <a href="https://www.grammarly.com/">Spelling and Grammar checker</a>
     - <a href="https://www.diffchecker.com/">Diffchecker</a>
+- <a href="https://www.geeksforgeeks.org/how-to-apply-important-in-css/">The correct way to use important in css</a>
 - <a href="https://balsamiq.com/">Balsamiq</a> Where I made my Wireframes.
 - <a href="http://beautifytools.com/html-beautifier.php">beautifytool</a> Where I beautifyed my code.
 - <a href="https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery">Add and Remove input fields</a>
@@ -218,6 +254,19 @@ I asked some of my friends and family members to test my project. So would get s
     **Solution**: I added on the top of the pictures the same amount of padding as the sides/bottom had to make to picture look more in balance.
     - **Issue 2**: The user thinks that the website could benefit from having a footer.
     **Solution**: As I don't have any contact to make a proper footer. I used the footer to show the following text: © 2020 Copyright Cook with me | For educational purpose.
+
+- Test User 5:
+    - **Issue 1**: The title of the website shows document.
+    **Solution**: I changed the title in the header from Document to Cook with me.
+    - **Issue 2**: Make use of some more headings to make more important elements to stand out.
+    **Solution**: I played around with putting headers in different parts of the cards. I ended up putting the card titles in a h5 and on the recipe.html I put the middle section in H4 to make it look more important.
+
+## Testing with Tools
+
+- Spelling and Grammar.
+    One of the people how tested my website suggested that I put all my texts through a spelling and grammar tool. I know this is one of my weaknesses. So I did not think I did not make any mistakes but I was not expecting to make this many mistakes. In my README.md at that time I found about 77 mistakes and in the About section, I made about 7 mistakes. That I have corrected with the help of the spelling and grammar tool. Knowing this will mean I have to keep checking my spelling and grammar.
+
+- 
 
 # Bugs in development
 
