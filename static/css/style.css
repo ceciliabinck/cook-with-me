@@ -309,5 +309,36 @@ main {
         height: 230px;
     }
     
+}
+
+/* Extra large */
+
+@media only screen and (min-width: 1200px){
+
+    /* recipes page */
+    .card .card-reveal {
+        padding-top: 50px;
+    }
+
+    .card .card-reveal .card-end p {
+        height: 70px;
+        margin: 30px 0;
+    }
+
+    .top-right {
+        margin-top: 0;
+        padding-left: 100px !important;
+    }
+
+    /*recipe page*/
+
+    .top-right {
+        margin-top: 50px;
+        padding-left: 80px !important;
+        font-size: 20px;
+    }
+    .top-left {
+        font-size: 24px;
+    }
 
 }
