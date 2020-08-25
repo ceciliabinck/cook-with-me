@@ -154,7 +154,7 @@ hr {
 
 .middle-left,
 .bottom {
-    padding-left: 20px;
+    padding-left: 20px !important;
 }
 
 .middle-left h4,
@@ -266,6 +266,20 @@ main {
 
     .button {
         margin-top: 30px;
+    }
+
+    /*recipe page*/
+
+    .top-right {
+        padding-left: 40px !important;
+    }
+
+    .top-left p {
+        margin: 5px 0;
+    }
+
+    .top-left {
+        font-size: 15px;
     }
     
     /* manage categories */
