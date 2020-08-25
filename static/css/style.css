@@ -159,7 +159,8 @@ hr {
 
 .middle-left h4,
 .middle-right h4,
-.bottom h4{
+.bottom h4,
+.go_back {
     text-decoration: underline;
 }
 .middle-right {
