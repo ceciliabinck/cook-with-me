@@ -23,7 +23,7 @@ This project is aimed for everyone how is interested in cooking no matter how go
 - Clear images of the finished dish so they have an idea of how it is going to look.
 - finding tips to improve there cooking skills.
 
-### User stores
+### User stories
 
 - As a traveller, I would like to store the recipes I learned in my cooking class. So I can make them at home.
 - As someone how loves to cook, I want to share some easy recipes with my friends. So that they can see it is not that difficult.
@@ -34,6 +34,8 @@ This project is aimed for everyone how is interested in cooking no matter how go
 - As a stay at home mom. I want to share some easy kid-friendly meals. So other moms could stress less when it is dinner time.
 - As a beginning cook, I want to see an image of a dish. So I have something to compare my result with.
 - As a student, I want to know the cooking time. So I can make dinner in between studying.
+- As I am always busy, I want the uploading process to be easy. So I can share some fast meal.
+- As I am always on my phone, I want the website to work on my phone. So I can use it on the go.
 
 ### How this project can help them
 
