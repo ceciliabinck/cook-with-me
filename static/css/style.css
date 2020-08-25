@@ -44,7 +44,7 @@ nav .brand-logo {
 }
 
 .carousel {
-    height: 500px;
+    height: 400px;
     margin-top: -50px;
 }
 
@@ -203,45 +203,4 @@ main {
     margin-bottom: 10px;
 }
 
-  
-/* media query */
 
-@media only screen and (max-width: 992px) {
-    nav .brand-logo {
-    font-size: 1.9rem;
-    }
-
-    h1 {
-        font-size: 35px;
-    }
-
-    .carousel {
-        height: 400px;
-        margin-top: -60px;
-    }
-
-    /* recipe cards*/
-
-    .card .card-reveal .card-title {
-    height: 60px;
-    margin-top: 60px;
-    padding-left: 30px;
-    }
-
-    .card .card-reveal .card-middle {
-    margin: 22px;
-    }
-
-    .card .card-reveal .card-end p {
-    height: 90px;
-    margin-top: 30px;
-    padding-left: 30px;
-    }
-}
-
-@media only screen and (min-width: 601px){
-    .row .col.m3 {
-        width: 31%;
-    }
-
-}
