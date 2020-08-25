@@ -176,7 +176,7 @@ hr {
 /* category page */
 
 #categories .card {
-    width: 190px
+    width: 190px;
 }
 
 #categories .card-title {
@@ -224,5 +224,56 @@ main {
 
     #categories .card {
         margin-left: 80px;
+    }
+}
+
+/* Medium */
+
+@media only screen and (min-width: 601px){
+
+    .row .col.m3 {
+        width: 31%;
+    }
+
+    /*recipe card */
+    /* front */
+    .card .card-content .card-title {
+        height: 90px;
+    }
+
+    .card .card-content .card-title {
+        line-height: 22px;
+    }
+
+    /* reveal */
+
+    .card .card-reveal {
+        padding-top: 0px;
+    }
+
+    .card .card-reveal .row {
+        margin-bottom: 5px;
+    }
+
+    .card .card-reveal .card-middle {
+        padding-top: 15px;
+    }
+
+    .card .card-reveal .card-end p {
+        height: 70px;
+        margin: 5px 0;
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    
+    
+    /* manage categories */
+
+    #categories .card {
+        width: 100%;
+        margin-left: 0px;
     }
 }
